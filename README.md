@@ -1,7 +1,5 @@
 
-# Website of FOXEL SA, Geneva Switzerland
-
-This program is part of the FOXEL project <[http://foxel.ch](http://foxel.ch)>.
+## Website of FOXEL SA, Geneva Switzerland
 
 The mission of FOXEL SA is to develop technological solutions dedicated to 3D
 environment digitizing using technologies based on the CERN OHL license and
@@ -11,13 +9,14 @@ The website is built with [Laravel](http://laravel.com) framework and other
 dependencies. Design by Raphael Lourdin. Please read the
 [COPYRIGHT.md](COPYRIGHT.md) file for more information.
 
-## Copyright
+### Copyright
 
-Copyright (c) 2013-2014 FOXEL SA - [http://foxel.ch](http://foxel.ch)
+Copyright (c) 2013-2014 FOXEL SA - [http://foxel.ch](http://foxel.ch)<br />
+This program is part of the FOXEL project <[http://foxel.ch](http://foxel.ch)>.
 
 Please read the [COPYRIGHT.md](COPYRIGHT.md) file for more information.
 
-## License
+### License
 
 This program is licensed under the terms of the
 [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html)
