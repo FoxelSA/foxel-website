@@ -20,9 +20,8 @@ Please read the [COPYRIGHT.md](COPYRIGHT.md) file for more information.
 
 This program is licensed under the terms of the
 [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html)
-(GNU AGPL), with two additional terms.
-
-The content is licensed under the terms of the
+(GNU AGPL), with two additional terms. The content is licensed under the terms
+of the
 [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
 (CC BY-SA).
 
