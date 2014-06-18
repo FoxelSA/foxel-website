@@ -58,7 +58,7 @@ return array(
 
     'form'                      => array(
         'title'                     => "Titre",
-            'female'                    => "Mme.",
+            'female'                    => "Mme",
             'male'                      => "M.",
         'lastname'                  => "Nom",
         'firstname'                 => "Prénom",
