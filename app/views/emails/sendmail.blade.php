@@ -49,21 +49,49 @@
 
 <h2>Contact request from FOXEL website</h2>
 
-<pre>
-    Title:          {{ $title }}
-    Last Name:      {{ $lastname }}
-    First Name:     {{ $firstname }}
-
-    Company:        {{ $company }}
-    Country:        {{ $country }}
-    Language:       {{{ App::getLocale() }}}
-
-    E-Mail:         {{ $email }}
-    Phone:          {{ $phone }}
-
-    Subject:        {{ $subject }}
-    Message:        {{ $msg }}
-</pre>
+<table>
+<tr>
+    <td>Title:</td>
+    <td rowspan="10" style="width:100px;"></td>
+    <td>{{ $title }}</td>
+</tr>
+<tr>
+    <td>Last Name:</td>
+    <td>{{ $lastname }}</td>
+</tr>
+<tr>
+    <td>First Name:</td>
+    <td>{{ $firstname }}</td>
+</tr>
+<tr>
+    <td>Company:</td>
+    <td>{{ $company }}</td>
+</tr>
+<tr>
+    <td>Country:</td>
+    <td>{{ $country }}</td>
+</tr>
+<tr>
+    <td>Language:</td>
+    <td>{{{ App::getLocale() }}}</td>
+</tr>
+<tr>
+    <td>E-Mail:</td>
+    <td>{{ $email }}</td>
+</tr>
+<tr>
+    <td>Phone:</td>
+    <td>{{ $phone }}</td>
+</tr>
+<tr>
+    <td>Subject:</td>
+    <td>{{ $subject }}</td>
+</tr>
+<tr>
+    <td>Message:</td>
+    <td>{{ $msg }}</td>
+</tr>
+</table>
 
 </body>
 </html>

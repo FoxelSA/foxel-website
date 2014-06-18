@@ -50,6 +50,7 @@ class SendmailController extends BaseController {
         {
             $message->from('no-reply@foxel.ch', 'FOXEL.ch on Laravel');
             $message->to('info@foxel.ch');
+            $message->subject('Contact request from FOXEL website');
         });
 
         return 200;
