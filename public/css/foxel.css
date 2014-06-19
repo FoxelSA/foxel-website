@@ -1429,6 +1429,11 @@ iframe.vimeo.dynamic {
         width:100%;
     }
 
+    img.marged {
+        display:block;
+        margin:0 auto;
+    }
+
     #languages {
         left:15px;
     }
