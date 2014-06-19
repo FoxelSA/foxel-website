@@ -384,6 +384,7 @@ header {
 
         #nav .responsive {
             display:none;
+            position:relative;
             top:35px; /* must be equal to #nav .air:top */
             height:120px; /* must be equal to #nav:height */
         }
