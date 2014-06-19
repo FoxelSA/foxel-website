@@ -25,7 +25,7 @@ In addition to the common terms of the GNU AGPL v3 license, you are required to:
 
 The content is licensed under the terms of the
 [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
-(CC BY-SA).
+(CC BY-SA) license.
 
 Please read <[http://foxel.ch/license](http://foxel.ch/license)> for more
 information.
