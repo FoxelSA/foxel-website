@@ -1,7 +1,7 @@
 
 ## Copyright
 
-Website of FOXEL SA, Geneva Switzerland.
+Website of FOXEL SA, Geneva Switzerland.<br />
 This program is part of the FOXEL project <[http://foxel.ch](http://foxel.ch)>.
 
 Copyright (c) 2013-2014 FOXEL SA - [http://foxel.ch](http://foxel.ch)<br />
