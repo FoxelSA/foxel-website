@@ -5,9 +5,8 @@ The mission of FOXEL SA is to develop technological solutions dedicated to 3D
 environment digitizing using technologies based on the CERN OHL license and
 other GNU GPL compatible licenses.
 
-The website is built with [Laravel](http://laravel.com) framework and other
-dependencies. Design by Raphael Lourdin. Please read the
-[COPYRIGHT.md](COPYRIGHT.md) file for more information.
+The website is built with [Laravel](http://laravel.com) framework and [other
+dependencies](COPYRIGHT.md). Design by Raphael Lourdin.
 
 
 ### Copyright
