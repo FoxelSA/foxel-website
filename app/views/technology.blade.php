@@ -800,7 +800,7 @@
                         <li>
                             IMU powered 3D inertial measurement (optional)
                             <ul>
-                                <li>2'560 recorded measurements per second</li>
+                                <li>2'460 recorded measurements per second</li>
                             </ul>
                         </li>
                         <li>Images are synchronized with IMU with 1&mu;s resolution</li>
