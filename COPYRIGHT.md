@@ -31,7 +31,7 @@ Please read <[http://foxel.ch/license](http://foxel.ch/license)> for more
 information.
 
 
-## Dependencies
+## Included Software and Libraries
 
 This program includes works distributed under the terms of the GNU General
 Public License and/or a compatible license and other copyright notices.
