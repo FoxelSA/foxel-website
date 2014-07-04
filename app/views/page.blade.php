@@ -77,7 +77,7 @@
                 </div>
                 <div class="block">
                     <h5>{{ Lang::get('commons.news.title') }}</h5>
-                    <p>{{ Lang::get('commons.news.content') }}</p>
+                    <p>{{ Lang::get('commons.news.content',array('news'=>route('rmll2014'))) }}</p>
                 </div>
 
 @show

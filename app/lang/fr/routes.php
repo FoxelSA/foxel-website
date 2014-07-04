@@ -68,8 +68,12 @@ return array(
         'uri'               => 'contact',
         'nav'               => 'Contact'
     ),
-    'license'              => array(
+    'license'           => array(
         'uri'               => 'licence',
+        'nav'               => NULL
+    ),
+    'rmll2014'          => array(
+        'uri'               => 'actualites/rmll/2014',
         'nav'               => NULL
     )
 

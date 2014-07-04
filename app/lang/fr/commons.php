@@ -44,7 +44,7 @@ return array(
 
     'news'                      => array(
         'title'                     => "Actualités",
-        'content'                   => "L'équipe de développement de la société FOXEL sera présente aux 15es Rencontres Mondiales du Logiciel Libre (<a href=\"http://rmll.info\" target=\"_blank\">RMLL</a>), du 5 au 11 juillet 2014 à Montpellier (France)."
+        'content'                   => "<strong>FOXEL participe à la 15ème édition des Rencontres Mondiales du Logiciel Libre (RMLL 2014).</strong> Rendez-vous du 5 au 11 juillet 2014 à Montpellier !<br /><br /><a href=\":news\">Lire la suite</a>"
     ),
 
     'footer'                    => array(

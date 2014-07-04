@@ -105,6 +105,10 @@ Route::group(array('prefix'=>$locale),function()
         return View::make('license');
     }));
 
+    Route::get(Lang::get('routes.rmll2014.uri'), array('as'=>'rmll2014',function() {
+        return View::make('news.rmll.2014.info');
+    }));
+
 });
 
 // sendmail
