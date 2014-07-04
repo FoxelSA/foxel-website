@@ -130,7 +130,7 @@
             </div>
             <div class="column middle">
                 <h3>{{ Lang::get('commons.news.title') }}</h3>
-                <p>{{ Lang::get('commons.news.content') }}</p>
+                <p>{{ Lang::get('commons.news.content',array('news'=>route('rmll2014'))) }}</p>
             </div>
             <div class="column right">
                 <h3>{{ Lang::get('contact.footer') }}</h3>
