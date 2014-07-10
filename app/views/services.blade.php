@@ -53,10 +53,10 @@
 	<div class="columns" style="margin-top:15px;">
 		<div class="column">
 			<p>{{ Lang::get('services.content.a') }}</p>
-			<p>{{ Lang::get('services.content.b') }}</p>
 		</div>
 		<div class="column">
 			<p>{{ Lang::get('services.content.c') }}</p>
+			<p>{{ Lang::get('services.content.b') }}</p>
 		</div>
 	</div>
 
