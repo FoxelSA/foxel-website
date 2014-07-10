@@ -125,6 +125,7 @@
             <div class="column left">
                 <h3>{{ Lang::get('company.footer') }}</h3>
                 <p>{{ Lang::get('company.content.a') }}</p>
+                <p>{{ Lang::get('company.content.e') }}</p>
                 <p>{{ Lang::get('company.content.b_alternate') }}</p>
                 <p><a href="{{{ route('company') }}}">{{ Lang::get('commons.readmore') }}</a></p>
             </div>

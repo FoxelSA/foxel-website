@@ -55,7 +55,8 @@ return array(
             '4'                         => "le sens des responsabilités",
             '5'                         => "de la franchise et de l'estime"
         ),
-        'd'                         => "Le capital humain est mis en priorité ce qui permet à nos collaborateurs de faire fructifier leur reconnaissance scientifique."
+        'd'                         => "Le capital humain est mis en priorité ce qui permet à nos collaborateurs de faire fructifier leur reconnaissance scientifique.",
+        'e'							=> "Notre modèle et son approche générale ouvrent la voie vers la réappropriation du territoire numérique de nos clients et la reprise du contrôle de leurs données."
     ),
 
     'expertise'                 => array(

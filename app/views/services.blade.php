@@ -50,14 +50,15 @@
 
     <h2>{{ Lang::get('services.title') }}</h2>
 
-    <div class="columns">
-        <div class="column">
-            <p>{{ Lang::get('services.content.a') }}</p>
-        </div>
-        <div class="column">
-            <p>{{ Lang::get('services.content.b') }}</p>
-        </div>
-    </div>
+	<div class="columns" style="margin-top:15px;">
+		<div class="column">
+			<p>{{ Lang::get('services.content.a') }}</p>
+			<p>{{ Lang::get('services.content.b') }}</p>
+		</div>
+		<div class="column">
+			<p>{{ Lang::get('services.content.c') }}</p>
+		</div>
+	</div>
 
     <div class="columns" style="margin-top:15px;">
         <div class="column">

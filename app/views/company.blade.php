@@ -53,6 +53,7 @@
     <div class="columns">
         <div class="column">
             <p>{{ Lang::get('company.content.a') }}</p>
+            <p>{{ Lang::get('company.content.e') }}</p>
             <p class="low">{{ Lang::get('company.content.b') }}</p>
             <ul>
                 <li>{{ Lang::get('company.content.c.0') }}</li>
