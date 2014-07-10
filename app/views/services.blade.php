@@ -61,7 +61,7 @@
 	</div>
 
     <div class="columns" style="margin-top:15px;">
-        <div class="column">
+        <div class="column" style="margin-top:15px;">
             <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/digitization-icon.png') }}}" width="60" height="50" alt="" /></div>
             <div style="margin-top:13px;margin-left:70px;">
                 <p class="low left"><strong>{{ Lang::get('services.dedicated.digitization.name') }}</strong></p>
