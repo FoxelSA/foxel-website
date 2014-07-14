@@ -60,12 +60,12 @@
 
     <div class="columns">
         <div class="column noa">
-            <p class="demo">{{ Lang::get('demo.basic.dreamsofmouron') }}</p>
-            <p><a href="{{ Config::get('app.demo') }}/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a></p>
-        </div>
-        <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.rmll2014') }}</p>
             <p><a href="{{ Config::get('app.demo') }}/rmll2014/rmll1/" target="_blank"><img src="{{{ asset('img/demo/rmll2014-1.png') }}}" class="auto center" alt="" /></a></p>
+        </div>
+        <div class="column noa">
+            <p class="demo">{{ Lang::get('demo.basic.dreamsofmouron') }}</p>
+            <p><a href="{{ Config::get('app.demo') }}/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a></p>
         </div>
     </div>
 
