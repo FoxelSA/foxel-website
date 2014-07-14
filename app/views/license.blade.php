@@ -56,6 +56,7 @@
         </div>
         <div class="column">
             <p>{{ Lang::get('license.main.b',array('cc'=>'http://creativecommons.org/licenses/by-sa/4.0/')) }}</p>
+            <p>{{ Lang::get('license.main.c',array('cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
         </div>
     </div>
 

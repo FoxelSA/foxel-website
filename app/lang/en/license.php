@@ -45,7 +45,8 @@ return array(
 
     'main'                      => array(
         'a'                         => "We mainly use the <a href=\":agpl\" target=\"_blank\">GNU Affero General Public License v3</a> (GNU AGPL) and the <a href=\":gpl\" target=\"_blank\">GNU General Public License v3</a> (GNU GPL) for the source code of the project.",
-        'b'                         => "The <a href=\":cc\" target=\"_blank\">Creative Commons Attribution-ShareAlike 4.0 International</a> (CC BY-SA) license is primarily used for the content of the project."
+        'b'                         => "The <a href=\":cc\" target=\"_blank\">Creative Commons Attribution-ShareAlike 4.0 International</a> (CC BY-SA) license is primarily used for the content of the project.",
+        'c'                         => "The hardware used by the FOXEL project is licensed under the terms of the <a href=\":cohl\" target=\"_blank\">CERN Open Harware License</a> (CERN OHL) license.",
     ),
 
     'additional'                => array(
