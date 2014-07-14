@@ -60,14 +60,10 @@
 
     <div class="columns">
         <div class="column noa">
-            <p class="demo">{{ Lang::get('demo.basic.montpellier') }}</p>
-            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier2/" target="_blank"><img src="{{{ asset('img/demo/montpellier-2.png') }}}" class="auto center" alt="" /></a></p>
-            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier1/" target="_blank"><img src="{{{ asset('img/demo/montpellier-1.png') }}}" class="auto center" alt="" /></a></p>
-            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier0/" target="_blank"><img src="{{{ asset('img/demo/montpellier-0.png') }}}" class="auto center" alt="" /></a></p>
-        </div>
-        <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.rmll2014') }}</p>
             <p><a href="{{ Config::get('app.demo') }}/rmll2014/rmll1/" target="_blank"><img src="{{{ asset('img/demo/rmll2014-1.png') }}}" class="auto center" alt="" /></a></p>
+        </div>
+        <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.dreamsofmouron') }}</p>
             <p><a href="{{ Config::get('app.demo') }}/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a></p>
         </div>
@@ -75,14 +71,28 @@
 
     <div class="columns">
         <div class="column noa">
+            <p class="demo">{{ Lang::get('demo.basic.montpellier') }}</p>
+            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier2/" target="_blank"><img src="{{{ asset('img/demo/montpellier-2.png') }}}" class="auto center" alt="" /></a></p>
+            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier1/" target="_blank"><img src="{{{ asset('img/demo/montpellier-1.png') }}}" class="auto center" alt="" /></a></p>
+            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier0/" target="_blank"><img src="{{{ asset('img/demo/montpellier-0.png') }}}" class="auto center" alt="" /></a></p>
+        </div>
+        <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.motorcycle') }}</p>
             <p><a href="{{ Config::get('app.demo') }}/motorcycle/motorcycle0/" target="_blank"><img src="{{{ asset('img/demo/motorcycle-0.png') }}}" class="auto center" alt="" /></a></p>
             <p><a href="{{ Config::get('app.demo') }}/motorcycle/motorcycle1/" target="_blank"><img src="{{{ asset('img/demo/motorcycle-1.png') }}}" class="auto center" alt="" /></a></p>
         </div>
+    </div>
+
+    <div class="columns">
         <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.unige') }}</p>
             <p><a href="{{ Config::get('app.demo') }}/unige/unige0/" target="_blank"><img src="{{{ asset('img/demo/unige-0.png') }}}" class="auto center" alt="" /></a></p>
             <p><a href="{{ Config::get('app.demo') }}/unige/unige1/" target="_blank"><img src="{{{ asset('img/demo/unige-1.png') }}}" class="auto center" alt="" /></a></p>
+        </div>
+        <div class="column noa">
+            <p class="demo">{{ Lang::get('demo.basic.highway') }}</p>
+            <p><a href="{{ Config::get('app.demo') }}/highway/highway0/" target="_blank"><img src="{{{ asset('img/demo/highway-0.png') }}}" class="auto center" alt="" /></a></p>
+            <p><a href="{{ Config::get('app.demo') }}/highway/highway1/" target="_blank"><img src="{{{ asset('img/demo/highway-1.png') }}}" class="auto center" alt="" /></a></p>
         </div>
     </div>
 
@@ -97,15 +107,6 @@
             <p><a href="{{ Config::get('app.demo') }}/jungfrau/jungfrau0/" target="_blank"><img src="{{{ asset('img/demo/jungfrau-0.png') }}}" class="auto center" alt="" /></a></p>
             <p><a href="{{ Config::get('app.demo') }}/jungfrau/jungfrau1/" target="_blank"><img src="{{{ asset('img/demo/jungfrau-1.png') }}}" class="auto center" alt="" /></a></p>
         </div>
-    </div>
-
-    <div class="columns">
-        <div class="column noa">
-            <p class="demo">{{ Lang::get('demo.basic.highway') }}</p>
-            <p><a href="{{ Config::get('app.demo') }}/highway/highway0/" target="_blank"><img src="{{{ asset('img/demo/highway-0.png') }}}" class="auto center" alt="" /></a></p>
-            <p><a href="{{ Config::get('app.demo') }}/highway/highway1/" target="_blank"><img src="{{{ asset('img/demo/highway-1.png') }}}" class="auto center" alt="" /></a></p>
-        </div>
-        <div class="column noa">&nbsp;</div>
     </div>
 
 @stop
