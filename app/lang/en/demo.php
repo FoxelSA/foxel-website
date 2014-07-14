@@ -51,6 +51,7 @@ return array(
     'basic'                     => array(
         'dreamsofmouron'            => "Dreams of Mouron",
         'rmll2014'                  => "RMLL 2014 Montpellier, with Richard M. Stallman",
+        'montpellier'               => "Montpellier",
         'motorcycle'                => "Motorcycle (onboard)",
         'unige'                     => "Uni Mail, University of Geneva",
         'golf'                      => "Golf Country Club of Neuchâtel",

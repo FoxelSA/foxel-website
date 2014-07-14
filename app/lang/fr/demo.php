@@ -51,6 +51,7 @@ return array(
     'basic'                     => array(
         'dreamsofmouron'            => "Dreams of Mouron",
         'rmll2014'                  => "RMLL 2014 Montpellier, avec Richard M. Stallman",
+        'montpellier'               => "Montpellier",
         'motorcycle'                => "Moto (embarquée)",
         'unige'                     => "Uni Mail, Université de Genève",
         'golf'                      => "Golf Country Club de Neuchâtel",
