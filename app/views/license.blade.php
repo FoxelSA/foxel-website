@@ -56,7 +56,6 @@
         </div>
         <div class="column">
             <p>{{ Lang::get('license.main.c',array('cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
-
         </div>
     </div>
 
@@ -65,7 +64,7 @@
             <p><img class="center" src="{{{ asset('img/license_agpl-v3.png') }}}" width="115" alt="" title="GNU Affero General Public License v3" /></p>
         </div>
         <div class="column noa">
-            <p><img class="center" src="{{{ asset('img/license_cern-ohl.png') }}}" width="50" alt="" title="CERN Open Hardware License" /></p>
+            <p><img style="position:relative;top:-5px;" class="center" src="{{{ asset('img/license_cern-ohl.png') }}}" width="50" alt="" title="CERN Open Hardware License" /></p>
         </div>
     </div>
 
