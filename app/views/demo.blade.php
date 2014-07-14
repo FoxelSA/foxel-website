@@ -61,9 +61,9 @@
     <div class="columns">
         <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.montpellier') }}</p>
-            <p><a href="{{ Config::get('app.demo') }}/montpellier/motorcycle2/" target="_blank"><img src="{{{ asset('img/demo/motorcycle-2.png') }}}" class="auto center" alt="" /></a></p>
-            <p><a href="{{ Config::get('app.demo') }}/montpellier/motorcycle1/" target="_blank"><img src="{{{ asset('img/demo/motorcycle-1.png') }}}" class="auto center" alt="" /></a></p>
-            <p><a href="{{ Config::get('app.demo') }}/montpellier/motorcycle0/" target="_blank"><img src="{{{ asset('img/demo/motorcycle-0.png') }}}" class="auto center" alt="" /></a></p>
+            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier2/" target="_blank"><img src="{{{ asset('img/demo/montpellier-2.png') }}}" class="auto center" alt="" /></a></p>
+            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier1/" target="_blank"><img src="{{{ asset('img/demo/montpellier-1.png') }}}" class="auto center" alt="" /></a></p>
+            <p><a href="{{ Config::get('app.demo') }}/montpellier/montpellier0/" target="_blank"><img src="{{{ asset('img/demo/montpellier-0.png') }}}" class="auto center" alt="" /></a></p>
         </div>
         <div class="column noa">
             <p class="demo">{{ Lang::get('demo.basic.rmll2014') }}</p>
