@@ -55,7 +55,8 @@
             <p>{{ Lang::get('license.main.a',array('agpl'=>'http://www.gnu.org/licenses/agpl.html','gpl'=>'http://www.gnu.org/licenses/gpl.html')) }}</p>
         </div>
         <div class="column">
-            <p>{{ Lang::get('license.main.b',array('cc'=>'http://creativecommons.org/licenses/by-sa/4.0/')) }}</p>
+            <p>{{ Lang::get('license.main.c',array('cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
+
         </div>
     </div>
 
@@ -64,21 +65,21 @@
             <p><img class="center" src="{{{ asset('img/license_agpl-v3.png') }}}" width="115" alt="" title="GNU Affero General Public License v3" /></p>
         </div>
         <div class="column noa">
-            <p><img class="center" src="{{{ asset('img/license_cc-by-sa.png') }}}" width="155" alt="" title="Creative Commons Attribution-ShareAlike" /></p>
+            <p><img class="center" src="{{{ asset('img/license_cern-ohl.png') }}}" width="50" alt="" title="CERN Open Hardware License" /></p>
         </div>
     </div>
 
     <div class="columns">
         <div class="column">&nbsp;</div>
         <div class="column">
-            <p>{{ Lang::get('license.main.c',array('cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
+            <p>{{ Lang::get('license.main.b',array('cc'=>'http://creativecommons.org/licenses/by-sa/4.0/')) }}</p>
         </div>
     </div>
 
     <div class="columns">
         <div class="column">&nbsp;</div>
         <div class="column noa">
-            <p><img class="center" src="{{{ asset('img/license_cern-ohl.png') }}}" width="60" alt="" title="CERN Open Hardware License" /></p>
+            <p><img class="center" src="{{{ asset('img/license_cc-by-sa.png') }}}" width="155" alt="" title="Creative Commons Attribution-ShareAlike" /></p>
         </div>
     </div>
 
