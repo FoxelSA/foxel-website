@@ -26,7 +26,7 @@ return array(
     |
     */
 
-    'url' => 'http://localhost/foxel.ch/public',
-    'demo' => 'http://localhost/foxel.ch/public/demo',
+    'url' => 'http://localhost/website/public',
+    'demo' => 'http://localhost/website-demo',
 
 );
