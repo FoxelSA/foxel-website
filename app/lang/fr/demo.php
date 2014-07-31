@@ -44,19 +44,8 @@ return array(
     'title'                     => "Enjoy!",
 
     'content'                   => array(
-        'a'                         => "Afin d'optimiser le temps de chargement et la compatibilité des navigateurs Internet, la qualité de ces exemples a été réduite par deux et demi par rapport aux images originales.",
+        'a'                         => "Afin d'optimiser le temps de chargement et la compatibilité des navigateurs Internet, la qualité de ces exemples a été réduite approximativement par deux par rapport aux images originales.",
         'b'                         => "Veuillez vous assurer que vous utilisez la dernière version de Chromium, Google Chrome ou Firefox."
-    ),
-
-    'basic'                     => array(
-        'dreamsofmouron'            => "Dreams of Mouron",
-        'rmll2014'                  => "RMLL 2014 Montpellier, avec Richard M. Stallman",
-        'montpellier'               => "Montpellier",
-        'motorcycle'                => "Moto (embarquée)",
-        'unige'                     => "Uni Mail, Université de Genève",
-        'golf'                      => "Golf Country Club de Neuchâtel",
-        'jungfraujoch'              => "Jungfraujoch",
-        'highway'                   => "Autoroute (embarquée)"
     )
 
 );

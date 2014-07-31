@@ -994,9 +994,21 @@ footer {
             }
 
             #content p.demo {
-                margin-top:30px;
+                margin-top:40px;
                 padding-bottom:5px;
                 border-bottom:solid 1px #ecb100;
+                color:#ecb100;
+                text-transform:uppercase;
+                font-size:18px;
+                font-weight:700;
+            }
+
+            #content span.pano {
+                display:block;
+                text-align:center;
+                text-transform:uppercase;
+                font-size:10px;
+                font-weight:700;
             }
 
         #content ul {

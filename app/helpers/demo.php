@@ -38,14 +38,43 @@
  *      Attribution" section of <http://foxel.ch/license>.
  */
 
-return array(
 
-    'head'                      => "Demonstration",
-    'title'                     => "Enjoy!",
+/**
+ * get_basic_demos()
+ */
+function get_basic_demos() {
 
-    'content'                   => array(
-        'a'                         => "To optimize the loading time and the compatibility of web browsers, the quality of these examples has been reduced approximately by two from the original images.",
-        'b'                         => "Please make sure you use the latest version of Chromium, Google Chrome or Firefox."
-    )
+    $sets = NULL;
 
-);
+    try {
+
+        // json
+        $json = json_decode(file_get_contents(Config::get('app.demo').'/basic/config.json'));
+        $sets = &$json->config->sets;
+
+    } catch (Exception $e) {
+        $sets = array();
+    }
+
+    // parse
+    foreach ($sets as &$_set) {
+
+        // order
+        foreach ($_set->views as $v => &$_view) {
+            $_view->pid = $v;
+            if (!isset($_view->order))
+                $_view->order = 0;
+        }
+
+        // sort
+        usort($_set->views, function ($a,$b) {
+            if ($a->order == $b->order)
+                return ($a->pid < $b->pid) ? -1 : 1;
+            return ($a->order < $b->order) ? -1 : 1;
+        });
+
+    }
+
+    return $sets;
+
+}

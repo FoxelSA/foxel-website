@@ -105,3 +105,11 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Require Additional Helpers
+|--------------------------------------------------------------------------
+*/
+
+require app_path().'/helpers/demo.php';
