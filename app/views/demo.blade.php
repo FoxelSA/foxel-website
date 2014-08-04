@@ -76,7 +76,7 @@ $sets = get_basic_demos();
 @endforeach
             <p class="demo">Dreams of Mouron</p>
             <p>
-                <a href="{{ Config::get('app.demo') }}/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a>
+                <a href="{{ Config::get('app.demo') }}/lib/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a>
                 <span class="pano">Project of Didier Mouron and Don Harper</span>
             </p>
         </div>
