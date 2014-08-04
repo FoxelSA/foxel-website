@@ -30,4 +30,4 @@ of the
 (CC BY-SA) license.
 
 Please read <[http://foxel.ch/license](http://foxel.ch/license)> for more
-information.
+information about our Licensing terms and our Usage and Attribution guidelines.
