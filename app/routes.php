@@ -81,9 +81,13 @@ Route::group(array('prefix'=>$locale),function()
         return View::make('company');
     }));
 
-    Route::get(Lang::get('routes.dynamic.uri'), array('as'=>'dynamic',function() {
-        return View::make('dynamic');
-    }));
+        Route::get(Lang::get('routes.company.sub.team.uri'), array('as'=>'team',function() {
+            return View::make('team');
+        }));
+
+        Route::get(Lang::get('routes.company.sub.dynamic.uri'), array('as'=>'dynamic',function() {
+            return View::make('dynamic');
+        }));
 
     Route::get(Lang::get('routes.services.uri'), array('as'=>'services',function() {
         return View::make('services');
@@ -93,16 +97,20 @@ Route::group(array('prefix'=>$locale),function()
         return View::make('technology');
     }));
 
+        Route::get(Lang::get('routes.technology.sub.demo.uri'), array('as'=>'demo',function() {
+            return View::make('demo');
+        }));
+
+        Route::get(Lang::get('routes.technology.sub.license.uri'), array('as'=>'license',function() {
+            return View::make('license');
+        }));
+
     Route::get(Lang::get('routes.contact.uri'), array('as'=>'contact',function() {
         return View::make('contact');
     }));
 
-    Route::get(Lang::get('routes.demo.uri'), array('as'=>'demo',function() {
-        return View::make('demo');
-    }));
-
-    Route::get(Lang::get('routes.license.uri'), array('as'=>'license',function() {
-        return View::make('license');
+    Route::get(Lang::get('routes.investors.uri'), array('as'=>'investors',function() {
+        return View::make('investors');
     }));
 
     Route::get(Lang::get('routes.rmll2014.uri'), array('as'=>'rmll2014',function() {

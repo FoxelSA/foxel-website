@@ -46,11 +46,17 @@ return array(
     ),
     'company'           => array(
         'uri'               => 'societe',
-        'nav'               => 'Société'
-    ),
-    'dynamic'           => array(
-        'uri'               => 'dynamique',
-        'nav'               => 'Dynamique'
+        'nav'               => 'Société',
+        'sub'               => array(
+            'team'              => array(
+                'uri'               => 'equipe',
+                'nav'               => 'Qui sommes-nous'
+            ),
+            'dynamic'           => array(
+                'uri'               => 'dynamique',
+                'nav'               => 'Dynamique économique'
+            )
+        )
     ),
     'services'          => array(
         'uri'               => 'services',
@@ -58,19 +64,25 @@ return array(
     ),
     'technology'        => array(
         'uri'               => 'technologie',
-        'nav'               => 'Technologie'
+        'nav'               => 'Technologie',
+        'sub'               => array(
+            'demo'              => array(
+                'uri'               => 'demo',
+                'nav'               => 'Démo'
+            ),
+            'license'           => array(
+                'uri'               => 'licence',
+                'nav'               => 'Licence'
+            )
+        )
     ),
-    'demo'              => array(
-        'uri'               => 'demo',
-        'nav'               => 'Démo'
+    'investors'         => array(
+        'uri'               => 'investisseurs',
+        'nav'               => 'Investisseurs'
     ),
     'contact'           => array(
         'uri'               => 'contact',
         'nav'               => 'Contact'
-    ),
-    'license'           => array(
-        'uri'               => 'licence',
-        'nav'               => NULL
     ),
     'rmll2014'          => array(
         'uri'               => 'actualites/rmll/2014',

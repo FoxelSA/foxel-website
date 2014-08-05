@@ -132,6 +132,38 @@ var navigation = function() {
 }; // navigation() end
 
 /**
+ * activemenu()
+ */
+var activemenu = function() {
+
+    /**
+     * !! event mouse:enter
+     */
+    $('nav#menu ul li').on('mouseenter',function() {
+        $(this).children('ul.sub').css('display','block');
+    });
+
+    /**
+     * !! event mouse:leave
+     */
+    $('nav#menu ul li').on('mouseleave',function() {
+        $(this).children('ul.sub').css('display','none');
+    });
+
+    /**
+     * !! event mouse:click
+     */
+    $('#nav .alternate.trigger').on('click',function() {
+        alternate();
+    });
+
+    // activate parents
+    $('nav#menu a.active').parentsUntil('nav','li').children('a').addClass('active');
+
+
+}; // activemenu()
+
+/**
  * switchlangs()
  */
 var switchlangs = function(state) {
@@ -783,12 +815,8 @@ $(document).ready(function() {
         switchlangs();
     });
 
-    /**
-     * !! event mouse:click
-     */
-    $('#nav .alternate.trigger').on('click',function() {
-        alternate();
-    });
+    // menu
+    activemenu();
 
     // page specific
     technology();

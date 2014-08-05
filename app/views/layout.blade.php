@@ -99,13 +99,7 @@
                     <a href="{{{ route('home').'/' }}}"><img src="{{{ asset('img/foxel.jpg') }}}" width="300" height="50" alt="FOXEL | Stereophotogrammetry Solutions" /></a>
                 </div>
                 <nav id="menu">
-                    <ul>
-@foreach (Lang::get('routes') as $route => $item)
-@if ($item['nav'] != NULL && (App::isLocal() || $route != 'demo'))
-                        <li><a href="{{{ route($route).($route=='home'?'/':'') }}}"{{ $route == Route::currentRouteName() ? ' class="active"' : '' }}>{{ $item['nav'] }}</a></li>
-@endif
-@endforeach
-                    </ul>
+                    {{ render_navigation() }}
                 </nav>
                 <div class="alternate trigger">
                     <i class="fa bars"></i>
@@ -170,13 +164,7 @@
                 <span>{{ Lang::get('commons.footer.copyright',array('year'=>date('Y'),'url'=>'http://foxel.ch/')) }}</span>
             </div>
             <div id="subnav">
-                <ul>
-@foreach (Lang::get('routes') as $route => $item)
-@if ($item['nav'] != NULL && (App::isLocal() || $route != 'demo'))
-                    <li><a href="{{{ route($route).($route=='home'?'/':'') }}}"{{ $route == Route::currentRouteName() ? ' class="active"' : '' }}>{{ $item['nav'] }}</a></li>
-@endif
-@endforeach
-                </ul>
+                {{ render_navigation(0) }}
             </div>
         </div>
     </div>
