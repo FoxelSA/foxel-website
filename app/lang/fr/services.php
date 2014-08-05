@@ -40,7 +40,7 @@
 
 return array(
 
-    'head'                      => "Solutions technologiques",
+    'head'                      => "Services",
     'title'                     => "Stéréophotogrammétrie et<br />innovation en numérisation d'environnements 3D",
 
     'content'                   => array(
