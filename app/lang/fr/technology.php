@@ -40,7 +40,7 @@
 
 return array(
 
-    'head'                      => "La maîtrise technologique",
+    'head'                      => "Maîtrise technologique",
     'title'                     => "L'expertise suisse<br />au service de l'innovation",
 
     'content'                   => array(
