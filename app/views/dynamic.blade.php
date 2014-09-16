@@ -52,21 +52,18 @@
 
     <p>{{ Lang::get('dynamic.content') }}</p>
 
-    <div style="margin:40px 0;">
+    <div style="margin:0;margin-top:40px;">
         <iframe class="vimeo dynamic" src="//player.vimeo.com/video/{{ Lang::get('dynamic.presentation.vimeo') }}?byline=0&amp;portrait=0&amp;color=ecb100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
 
-    <h3>{{ Lang::get('dynamic.presentation.subtitle') }}</h3>
-
-    <ul>
-        <li>
-            <a href="{{{ asset(Lang::get('dynamic.presentation.src')) }}}" target="_blank">{{ Lang::get('dynamic.presentation.content') }}</a>
-            <br />
-            <span class="note">{{ Lang::get('dynamic.presentation.license',array('license'=>'http://creativecommons.org/licenses/by-sa/4.0/')) }}</span>
-            <br />
-            <span class="note">{{ Lang::get('dynamic.presentation.attribution',array('route'=>route('license'))) }}</span>
-        </li>
-    </ul>
+    <p>
+        <span class="note">{{ Lang::get('dynamic.presentation.license',array('license'=>'http://creativecommons.org/licenses/by-sa/4.0/')) }}</span>
+        <br />
+        <span class="note">
+            {{ Lang::get('dynamic.presentation.attribution',array('route'=>route('license'))) }}
+            {{ Lang::get('dynamic.presentation.download',array('src'=>asset(Lang::get('dynamic.presentation.src')))) }}
+        </span>
+    </p>
 
 @stop
 

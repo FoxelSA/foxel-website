@@ -47,11 +47,10 @@ return array(
 
     'presentation'              => array(
         'vimeo'                     => "94669103",
-        'subtitle'                  => "Dynamic Presentation",
-        'content'                   => "\"Conference\" Format (SVG)",
-            'src'                       => "repository/FOXEL-2014-05-14-EN_Economic-Dynamic.svg",
         'license'                   => "Presentation licensed under the <em>Creative Commons Attribution-ShareAlike 4.0 International <a href=\":license\" target=\"_blank\">(CC BY-SA)</a></em> license.",
-        'attribution'               => "Please read our <a href=\":route\" target=\"_blank\">Usage and Attribution</a> guide."
+        'attribution'               => "Please read our <a href=\":route\" target=\"_blank\">Usage and Attribution</a> guide.",
+        'src'                       => "repository/FOXEL-2014-05-14-EN_Economic-Dynamic.svg",
+        'download'                  => "View and download the <a href=\":src\" target=\"_blank\">presentation in SVG format</a>."
     )
 
 );
