@@ -40,6 +40,8 @@
 
 return array(
 
+    'head'                      => "Licence (en anglais)"
+
     // see english file
 
 );
