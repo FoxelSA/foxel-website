@@ -76,17 +76,15 @@ return array(
             )
         )
     ),
+    /*
     'investors'         => array(
         'uri'               => 'investors',
         'nav'               => 'Investors'
     ),
+    */
     'contact'           => array(
         'uri'               => 'contact',
         'nav'               => 'Contact'
-    ),
-    'rmll2014'          => array(
-        'uri'               => 'news/rmll/2014',
-        'nav'               => NULL
     )
 
 );
