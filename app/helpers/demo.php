@@ -75,6 +75,10 @@ function get_basic_demos() {
 
     }
 
-    return $sets;
+    // dreams of mouron
+    $sets[] = (object)array('name'=>'Dreams of Mouron','path'=>'dreamsofmouron','views'=>array());
+
+    // split
+    return array_chunk($sets,2);
 
 }

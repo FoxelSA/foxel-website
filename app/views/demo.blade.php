@@ -41,7 +41,7 @@
  */
 
 // demo
-$sets = get_basic_demos();
+$chunks = get_basic_demos();
 
 ?>
 
@@ -61,39 +61,32 @@ $sets = get_basic_demos();
         <div class="column noa">&nbsp;</div>
     </div>
 
+@foreach ($chunks as $sets)
+
     <div class="columns">
+    @foreach ($sets as $set)
         <div class="column noa">
-@foreach ($sets as $index => $set)
-@if ($index % 2 == 0)
             <p class="demo">{{ $set->name }}</p>
-    @foreach ($set->views as $view)
-            <p>
-                <a href="{{ Config::get('app.demo') }}/basic/?s={{ $set->path; }}&p={{ $view->pid }}" target="_blank"><img src="{{ Config::get('app.demo') }}/basic/tiles/{{ $set->path }}/{{ $view->pid }}/preview.png" class="auto center" alt="" /></a>
-                <span class="pano">{{ $view->caption }}</span>
-            </p>
-    @endforeach
-@endif
-@endforeach
-            <p class="demo">Dreams of Mouron</p>
+        @if ($set->path=='dreamsofmouron')
             <p>
                 <a href="{{ Config::get('app.demo') }}/lib/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a>
-                <span class="pano">Project of Didier Mouron and Don Harper</span>
+                <span class="pano">Didier Mouron and Don Harper</span>
             </p>
+        @else
+            @foreach ($set->views as $iv => $view)
+                @if ($iv < 4)
+                    <p>
+                        <a href="{{ Config::get('app.demo') }}/basic/?s={{ $set->path; }}&p={{ $view->pid }}" target="_blank"><img src="{{ Config::get('app.demo') }}/basic/tiles/{{ $set->path }}/{{ $view->pid }}/preview.png" class="auto center" alt="" /></a>
+                        <span class="pano">{{ $view->caption }}</span>
+                    </p>
+                @endif
+            @endforeach
+        @endif
         </div>
-        <div class="column noa">
-@foreach ($sets as $index => $set)
-@if ($index % 2 == 1)
-            <p class="demo">{{ $set->name }}</p>
-    @foreach ($set->views as $view)
-            <p>
-                <a href="{{ Config::get('app.demo') }}/basic/?s={{ $set->path; }}&p={{ $view->pid }}" target="_blank"><img src="{{ Config::get('app.demo') }}/basic/tiles/{{ $set->path }}/{{ $view->pid }}/preview.png" class="auto center" alt="" /></a>
-                <span class="pano">{{ $view->caption }}</span>
-            </p>
     @endforeach
-@endif
-@endforeach
-        </div>
     </div>
+
+@endforeach
 
 @stop
 
