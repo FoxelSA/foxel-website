@@ -46,10 +46,10 @@ return array(
     'content'                   => "Processus de développement contributif de biens communs au service des secteurs publics et privés (4P).",
 
     'presentation'              => array(
-        'vimeo'                     => "94672044",
+        'vimeo'                     => "94669103",
         'license'                   => "Présentation mise à disposition selon les termes de la licence <em>Creative Commons Attribution-ShareAlike 4.0 International <a href=\":license\" target=\"_blank\">(CC BY-SA)</a></em>.",
         'attribution'               => "Veuillez lire notre guide <a href=\":route\" target=\"_blank\">Utilisation et Attribution</a> (en anglais).",
-        'src'                       => "repository/FOXEL-2014-05-14-FR_Dynamique-Economique.svg",
+        'src'                       => "repository/FOXEL-2014-05-14-EN_Economic-Dynamic.svg",
         'download'                  => "Visualiser et télécharger la <a href=\":src\" target=\"_blank\">présentation au format SVG</a>."
     )
 

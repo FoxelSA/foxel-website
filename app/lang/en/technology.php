@@ -43,6 +43,14 @@ return array(
     'head'                      => "Technological Expertise",
     'title'                     => "Swiss Expertise<br />Devoted to Innovation",
 
+    'presentation'              => array(
+        'vimeo'                     => "109898911",
+        'license'                   => "Presentation licensed under the <em>Creative Commons Attribution-ShareAlike 4.0 International <a href=\":license\" target=\"_blank\">(CC BY-SA)</a></em> license.",
+        'attribution'               => "Please read our <a href=\":route\" target=\"_blank\">Usage and Attribution</a> guide.",
+        'src'                       => "repository/FOXEL-2014-10-24-EN_Technical-Presentation.svg",
+        'download'                  => "View and download the <a href=\":src\" target=\"_blank\">presentation in SVG format</a>."
+    ),
+
     'content'                   => array(
         'a'                         => "FOXEL SA masters the entire development chain, from the conceptualization and design of electronic systems and measurement tools to the development of specific software.",
         'b'                         => "Our innovation policy distinguishes between technology (science) and its applications (products). This approach significantly strengthens our links with scientific communities, research centers and academic networks.",

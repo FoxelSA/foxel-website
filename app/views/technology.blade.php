@@ -50,7 +50,20 @@
 
     <h2>{{ Lang::get('technology.title') }}</h2>
 
-    <div class="columns">
+    <div style="margin:0;margin-top:40px;">
+        <iframe class="vimeo dynamic" src="//player.vimeo.com/video/{{ Lang::get('technology.presentation.vimeo') }}?byline=0&amp;portrait=0&amp;color=ecb100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <p>
+        <span class="note">{{ Lang::get('technology.presentation.license',array('license'=>'http://creativecommons.org/licenses/by-sa/4.0/')) }}</span>
+        <br />
+        <span class="note">
+            {{ Lang::get('technology.presentation.attribution',array('route'=>route('license'))) }}
+            {{ Lang::get('technology.presentation.download',array('src'=>asset(Lang::get('technology.presentation.src')))) }}
+        </span>
+    </p>
+
+    <div class="columns" style="margin-top:50px;">
         <div class="column">
             <p>{{ Lang::get('technology.content.a') }}</p>
             <ul>

@@ -43,6 +43,14 @@ return array(
     'head'                      => "Maîtrise technologique",
     'title'                     => "L'expertise suisse<br />au service de l'innovation",
 
+    'presentation'              => array(
+        'vimeo'                     => "109898911",
+        'license'                   => "Présentation mise à disposition selon les termes de la licence <em>Creative Commons Attribution-ShareAlike 4.0 International <a href=\":license\" target=\"_blank\">(CC BY-SA)</a></em>.",
+        'attribution'               => "Veuillez lire notre guide <a href=\":route\" target=\"_blank\">Utilisation et Attribution</a> (en anglais).",
+        'src'                       => "repository/FOXEL-2014-10-24-EN_Technical-Presentation.svg",
+        'download'                  => "Visualiser et télécharger la <a href=\":src\" target=\"_blank\">présentation au format SVG</a>."
+    ),
+
     'content'                   => array(
         'a'                         => "FOXEL SA maîtrise la globalité de la chaîne de développement, allant de la conceptualisation de systèmes électroniques et d'outils de mesure jusqu'au développement de logiciels spécifiques.",
         'b'                         => "Notre politique de l'innovation différencie la technologie (science) de ses applications (produits). Cette approche renforce significativement nos liens avec les communautés scientifiques, les centres de recherche et les réseaux universitaires.",
