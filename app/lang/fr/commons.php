@@ -44,7 +44,7 @@ return array(
 
     'news'                      => array(
         'title'                     => "Actualités",
-        'content'                   => "<strong>FOXEL participe à la 15ème édition des Rencontres Mondiales du Logiciel Libre (RMLL 2014).</strong> Rendez-vous du 5 au 11 juillet 2014 à Montpellier !<br /><br /><a href=\":news\">Lire la suite</a>"
+        'content'                   => "FOXEL s'inscrit comme fournisseur officiel de <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, la célébration du bicentenaire de l'entrée de Genève dans la Confédération suisse."
     ),
 
     'footer'                    => array(

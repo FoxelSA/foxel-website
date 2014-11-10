@@ -44,7 +44,7 @@ return array(
 
     'news'                      => array(
         'title'                     => "News",
-        'content'                   => "FOXEL's development team will participate in the 15th Libre Software Meeting (<a href=\"http://2014.rmll.info/\" target=\"_blank\">RMLL / LSM</a>) taking place in Montpellier (France) from July 5-11<sup>th</sup>, 2014."
+        'content'                   => "FOXEL is proud to be amongst the official suppliers of <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, the celebration of Geneva's bicentennial entry in the Swiss confederation."
     ),
 
     'footer'                    => array(
