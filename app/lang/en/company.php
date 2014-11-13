@@ -56,7 +56,7 @@ return array(
             '5'                         => "Openness and integrity"
         ),
         'd'                         => "Human capital is prioritized thus allowing our employees to enhance their scientific mastery and recognition.",
-        'e'							=> "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their numeric territory."
+        'e'                         => "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their numeric territory."
     ),
 
     'expertise'                 => array(
@@ -81,7 +81,7 @@ return array(
         'subtitle'                  => "International Know-How Network",
         'content'                   => array(
             'a'                         => "FOXEL SA benefits from an international network, comprising foundations, university and academic partners, business enterprises and engineers, specializing in the research and development of new technological solutions based on the <em>Creative Commons</em> principle.",
-            'b'                         => "We benefit from a privileged partnership with the company <a href=\":elphel\" target=\"_blank\">Elphel, Inc.</a>, designer of digital imaging solutions specifically used in the <em>Google Street View<sup>TM</sup></em> and <em>RQ-4 Global Hawk<sup>TM</sup></em> projects.",
+            'b'                         => "We benefit from a privileged partnership with the company <a href=\":elphel\" target=\"_blank\">Elphel, Inc.</a>, designer of digital imaging solutions specifically used in the <em>Google Street View&trade;</em> and <em>RQ-4 Global Hawk&trade;</em> projects.",
             'c'                         => "We actively contribute to the development of <em>Open Hardware</em> and <em>Free Software</em> projects resulting from this technology and we ensure the engineering and marketing.",
             'd'                         => "We support and participate annually in the <em>Libre Software Meeting (<a href=\":rmll\" target=\"_blank\">RMLL / LSM</a>)</em> and we regularly organize third places, conferences and round-table discussions in partnership with our Clients and members of our know-how network."
         )

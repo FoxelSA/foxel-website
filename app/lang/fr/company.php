@@ -56,7 +56,7 @@ return array(
             '5'                         => "de la franchise et de l'estime"
         ),
         'd'                         => "Le capital humain est mis en priorité ce qui permet à nos collaborateurs de faire fructifier leur reconnaissance scientifique.",
-        'e'							=> "Notre modèle et son approche générale ouvrent la voie vers la réappropriation du territoire numérique de nos clients et la reprise du contrôle de leurs données."
+        'e'                         => "Notre modèle et son approche générale ouvrent la voie vers la réappropriation du territoire numérique de nos clients et la reprise du contrôle de leurs données."
     ),
 
     'expertise'                 => array(
@@ -81,7 +81,7 @@ return array(
         'subtitle'                  => "Réseau international de compétences",
         'content'                   => array(
             'a'                         => "FOXEL SA bénéficie d'un réseau international composé de fondations, de partenaires universitaires et académiques, de sociétés et d'ingénieurs spécialisés dans la recherche et le développement de nouvelles solutions technologiques basées sur le principe <em>Creative Commons</em>.",
-            'b'                         => "Nous sommes au bénéfice d'un partenariat privilégié avec la société <a href=\":elphel\" target=\"_blank\">Elphel, Inc.</a>, concepteur de solutions d'imagerie numérique utilisées notamment au sein des projets <em>Google Street View<sup>TM</sup></em> et <em>RQ-4 Global Hawk<sup>TM</sup></em>.",
+            'b'                         => "Nous sommes au bénéfice d'un partenariat privilégié avec la société <a href=\":elphel\" target=\"_blank\">Elphel, Inc.</a>, concepteur de solutions d'imagerie numérique utilisées notamment au sein des projets <em>Google Street View&trade;</em> et <em>RQ-4 Global Hawk&trade;</em>.",
             'c'                         => "Nous contribuons activement au développement de projets <em>Open Hardware</em> et <em>Free Software</em> issus de cette technologie et en assurons l'ingénierie et la commercialisation.",
             'd'                         => "La société FOXEL SA soutient et participe annuellement aux <em>Rencontres Mondiales du Logiciel Libre (<a href=\":rmll\" target=\"_blank\">RMLL</a>)</em>. Nous organisons régulièrement des tiers-lieux, conférences et tables rondes, en partenariat avec nos Clients et les acteurs de notre réseau de compétences."
         )
