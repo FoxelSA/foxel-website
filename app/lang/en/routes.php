@@ -78,12 +78,10 @@ return array(
             )
         )
     ),
-    /*
     'investors'         => array(
         'uri'               => 'investors',
         'nav'               => 'Investors'
     ),
-    */
     'contact'           => array(
         'uri'               => 'contact',
         'nav'               => 'Contact'

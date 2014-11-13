@@ -48,14 +48,58 @@
 
 @section('data')
 
-    <h2>{{ Lang::get('investors.title') }}</h2>
+    <h2>{{ Lang::get('investors.highlights.subtitle') }}</h2>
+
+    <div class="columns">
+        <div class="column">
+            <p>{{ Lang::get('investors.highlights.content.a') }}</p>
+            <p>{{ Lang::get('investors.highlights.content.b',array('dynamic'=>route('dynamic'))) }}</p>
+            <p>{{ Lang::get('investors.highlights.content.c',array('technology'=>route('technology'))) }}</p>
+        </div>
+        <div class="column">
+            <p>{{ Lang::get('investors.highlights.content.d') }}</p>
+            <p>{{ Lang::get('investors.highlights.content.e') }}</p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <h3>{{ Lang::get('investors.national.subtitle') }}</h3>
+            <p>{{ Lang::get('investors.national.content.a',array('pdf'=>asset(Lang::get('investors.national.pdf')))) }}</p>
+            <p>{{ Lang::get('investors.national.content.b',array('contact'=>route('contact'))) }}</p>
+        </div>
+        <div class="column">
+            <p style="position:relative;top:35px;">
+                <a href="{{ asset(Lang::get('investors.national.pdf')) }}" target="_blank"><img src="{{{ asset('img/investors/foxel-national.png') }}}" class="auto center" alt="" /></a>
+            </p>
+        </div>
+    </div>
+
+    <h3>{{ Lang::get('investors.title') }}</h3>
 
     <div class="columns">
         <div class="column">
             <p>{{ Lang::get('investors.content.a') }}</p>
         </div>
+    </div>
+
+    <div class="columns">
         <div class="column">
-            <p>{{ Lang::get('investors.content.b') }}</p>
+            <ul class="big">
+                <li>{{ Lang::get('investors.content.b.0') }}</li>
+                <li>{{ Lang::get('investors.content.b.1',array('services'=>route('services'))) }}</li>
+                <li>{{ Lang::get('investors.content.b.2',array('technology'=>route('technology'))) }}</li>
+                <li>{{ Lang::get('investors.content.b.3',array('license'=>route('license'))) }}</li>
+            </ul>
+        </div>
+        <div class="column">
+            <ul class="big">
+                <li>{{ Lang::get('investors.content.b.4') }}</li>
+                <li>{{ Lang::get('investors.content.b.5',array('dynamic'=>route('dynamic'))) }}</li>
+                <li>{{ Lang::get('investors.content.b.6') }}</li>
+                <li>{{ Lang::get('investors.content.b.7') }}</li>
+                <li>{{ Lang::get('investors.content.b.8') }}</li>
+            </ul>
         </div>
     </div>
 
