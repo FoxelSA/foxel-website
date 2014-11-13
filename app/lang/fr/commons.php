@@ -50,7 +50,8 @@ return array(
     'footer'                    => array(
         'contact'                   => "Contact",
         'license'                   => "Site sous <a href=\":route\">licences GNU AGPL v3 et CC BY-SA</a>",
-        'copyright'                 => "&copy; 2013-:year <a href=\":url\">FOXEL SA</a>"
+        'copyright'                 => "&copy; 2013-:year <a href=\":url\">FOXEL SA</a>",
+        'disclaimer'                => "| <a href=\":route\">Décharge</a>"
     ),
 
     'readmore'                  => "Lire la suite"

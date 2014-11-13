@@ -562,6 +562,7 @@ footer {
 
         #license {
             display:inline-block;
+            font-size:11px;
         }
 
         #subnav {
@@ -1044,6 +1045,14 @@ footer {
                 padding-left:5px;
                 padding-bottom:8px;
             }
+
+            #content ul.big li {
+                padding-bottom:20px;
+            }
+
+                #content ul.big li:last-child {
+                    padding-bottom:8px;
+                }
 
     #sidebar {
         width:280px;

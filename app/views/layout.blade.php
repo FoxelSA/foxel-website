@@ -161,6 +161,7 @@
         <div class="bound">
             <div id="license">
                 <span>{{ Lang::get('commons.footer.license',array('route'=>route('license'))) }}</span>
+                <span>{{ Lang::get('commons.footer.disclaimer',array('route'=>route('disclaimer'))) }}</span>
                 <span>{{ Lang::get('commons.footer.copyright',array('year'=>date('Y'),'url'=>'http://foxel.ch/')) }}</span>
             </div>
             <div id="subnav">

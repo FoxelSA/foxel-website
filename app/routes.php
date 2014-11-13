@@ -105,12 +105,16 @@ Route::group(array('prefix'=>$locale),function()
             return View::make('license');
         }));
 
+    Route::get(Lang::get('routes.investors.uri'), array('as'=>'investors',function() {
+        return View::make('investors');
+    }));
+
     Route::get(Lang::get('routes.contact.uri'), array('as'=>'contact',function() {
         return View::make('contact');
     }));
 
-    Route::get(Lang::get('routes.investors.uri'), array('as'=>'investors',function() {
-        return View::make('investors');
+    Route::get(Lang::get('routes.disclaimer.uri'), array('as'=>'disclaimer',function() {
+        return View::make('disclaimer');
     }));
 
     Route::get(Lang::get('routes.rmll2014.uri'), array('as'=>'rmll2014',function() {

@@ -87,6 +87,10 @@ return array(
     'contact'           => array(
         'uri'               => 'contact',
         'nav'               => 'Contact'
+    ),
+    'disclaimer'        => array(
+        'uri'               => 'disclaimer',
+        'nav'               => NULL
     )
 
 );
