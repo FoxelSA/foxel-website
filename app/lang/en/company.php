@@ -56,7 +56,7 @@ return array(
             '5'                         => "Openness and integrity"
         ),
         'd'                         => "Human capital is prioritized thus allowing our employees to enhance their scientific mastery and recognition.",
-        'e'                         => "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their numeric territory."
+        'e'                         => "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their digital territory."
     ),
 
     'expertise'                 => array(

@@ -59,10 +59,10 @@ return array(
     ),
 
     'national'                  => array(
-        'subtitle'                  => "How to join FOXEL's Innovating and International Big Game?",
+        'subtitle'                  => "How to Join FOXEL's Innovating and International Big Game?",
         'content'                   => array(
             'a'                         => "<a href=\":pdf\" target=\"_blank\">Discover here</a> a proposed and adjustable National License model and Business Plan summary.",
-            'b'                         => "After reading your interest, we very much look forward <a href=\":contact\">meeting with you</a> and discuss your project."
+            'b'                         => "We look forward to <a href=\":contact\">meeting with you</a> in order to discuss your project and ideas."
         ),
         'pdf'                       => "repository/FOXEL-2014-11-13-EN_National-License-Model.pdf"
     ),
