@@ -117,7 +117,7 @@
     <div class="columns license">
         <div class="column">
             <p>{{ Lang::get('license.website.a') }}</p>
-            <p>{{ Lang::get('license.website.b') }}</p>
+            <p>{{ Lang::get('license.website.b',array('elphel'=>'http://elphel.com/')) }}</p>
         </div>
         <div class="column">
             &nbsp;
