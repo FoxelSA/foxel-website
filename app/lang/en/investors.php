@@ -41,7 +41,7 @@
 return array(
 
     'head'                      => "Investors | Entrepreneurs",
-    'title'                     => "Why partner with us?",
+    'title'                     => "Why Partner with Us?",
 
     'content'                   => array(
         'a'                         => "Because we are among the world leaders in the 3D digitization of environments for the appropriation of digital territory.",
