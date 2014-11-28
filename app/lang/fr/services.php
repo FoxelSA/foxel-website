@@ -69,6 +69,17 @@ return array(
         )
     ),
 
+    'gis'                       => array(
+        'subtitle'                  => "Système d'Information Géographique (SIG/GIS)",
+        'content'                   => array(
+            'a'                         => "FOXEL est spécialisée dans le développement de systèmes d'information géographique (SIG/GIS), aussi connu sous les noms de <em>sciences de l'information géographique</em> ou <em>sciences de l'information géospatiale</em>. Nous concevons des systèmes permettant la capture, le stockage, la manipulation, l'analyse, la gestion et la présentation tous les types de données spatiales ou géographiques.",
+            'b'                         => "Nous fournissons à nos clients des solutions dédiées et des applications d'intelligence liée à l'emplacement y inclut, mais sans s'y limiter, le développement et l'intégration de solutions logicielles permettant l'édition des données, l'analyse de l'information spéciale, le partage des données, et la lecture de leurs informations géographiques selon leur besoins, ainsi que le développement d'instruments haut de gamme permettant l'acquisition de données de grande valeur.",
+            'c'                         => "Notre réponse à l'importance du SIG et à ses facteurs stratégiques est d'apporter bien plus que les coordonnées de bases <em>x, y, z</em>  (longitude, latitude et altitude), mais des outils d'analyse et de visualisation performants et de grande précision permettant bien davantage que la seule localisation spatiale-temporelle de tout lieux basé sur Terre.",
+            'd'                         => "Notre R&amp;D s'efforce de servir et d'améliorer l'utilisation des données clés dans de nombreux secteurs tels que, et entre autres, l'ingénierie, la planification, la gestion, le transport et la logistique, l'assurance, les télécommunications, la sécurité.",
+            'e'                         => "FOXEL propose de nombreuses nouvelles opportunités dans le secteur SIG, marché en pleine croissance, notamment des solutions optimales et facilement intégrables dans la plupart des systèmes existants."
+        )
+    ),
+
     'contributive'              => array(
         'subtitle'                  => "Spécialiste du développement contributif<br />pour les institutions gouvernementales et les grands comptes",
             'subtitle_alternate'        => "Spécialiste du développement contributif pour les institutions gouvernementales et les grands comptes",

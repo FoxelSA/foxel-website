@@ -69,6 +69,17 @@ return array(
         )
     ),
 
+    'gis'                       => array(
+        'subtitle'                  => "Geographic Information System (GIS)",
+        'content'                   => array(
+            'a'                         => "FOXEL is specialized in the development of Geographic Information Systems (GIS), also known under <em>Geographical Information Science</em> or <em>Geospatial Information Studies</em>. We design systems to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data.",
+            'b'                         => "We provide our Clients with dedicated solutions and location intelligence applications that includes, but not limited to, the development and the integration of software solutions for the editing of data, the analyzing of special information, the sharing of data, and displays for their geographic information needs, as well as the development of high-end hardware instruments for the acquisition of highly valuable data.",
+            'c'                         => "Our response to the importance and key factors of GIS is to add much more to the basic <em>x, y, z</em> coordinates (longitude, latitude, and elevation) by creating analyzing and visualization tools including high accuracy to all the Earth-based spacial-temporal location and extend references.",
+            'd'                         => "Our R&amp;D strives to serve and enhance the use of key data in many sectors such as i.e. engineering, planning, management, transport and logistics, insurance, telecommunications, security.",
+            'e'                         => "FOXEL proposes many new opportunities in GIS growing market that now days seeks for optimal solutions easily integrable in most of existing systems."
+        )
+    ),
+
     'contributive'              => array(
         'subtitle'                  => "A Specialist in Contributory Development<br />for Governmental Institutions and Key Accounts",
             'subtitle_alternate'        => "A Specialist in Contributory Development for Governmental Institutions and Key Accounts",

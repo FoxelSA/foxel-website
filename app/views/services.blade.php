@@ -50,15 +50,15 @@
 
     <h2>{{ Lang::get('services.title') }}</h2>
 
-	<div class="columns" style="margin-top:15px;">
-		<div class="column">
-			<p>{{ Lang::get('services.content.a') }}</p>
-			<p>{{ Lang::get('services.content.b') }}</p>
-		</div>
-		<div class="column">
-			<p>{{ Lang::get('services.content.c') }}</p>
-		</div>
-	</div>
+    <div class="columns" style="margin-top:15px;">
+        <div class="column">
+            <p>{{ Lang::get('services.content.a') }}</p>
+            <p>{{ Lang::get('services.content.b') }}</p>
+        </div>
+        <div class="column">
+            <p>{{ Lang::get('services.content.c') }}</p>
+        </div>
+    </div>
 
     <div class="columns" style="margin-top:15px;">
         <div class="column" style="margin-top:15px;">
@@ -93,9 +93,23 @@
         </div>
     </div>
 
+    <h3 style="padding-top:10px;">{{ Lang::get('services.gis.subtitle') }}</h3>
+
+    <div class="columns">
+        <div class="column">
+            <p>{{ Lang::get('services.gis.content.a') }}</p>
+            <p>{{ Lang::get('services.gis.content.b') }}</p>
+        </div>
+        <div class="column">
+            <p>{{ Lang::get('services.gis.content.c') }}</p>
+            <p>{{ Lang::get('services.gis.content.d') }}</p>
+            <p>{{ Lang::get('services.gis.content.e') }}</p>
+        </div>
+    </div>
+
     <p>
         <br />
-        <img src="{{{ asset('img/visuals/services.png') }}}" class="auto center" alt="" />
+        <img src="{{{ asset('img/services/gis.png') }}}" class="auto center" alt="" />
     </p>
 
     <h3>{{ Lang::get('services.contributive.subtitle') }}</h3>
