@@ -62,8 +62,8 @@ return array(
     'expertise'                 => array(
         'subtitle'                  => "Expertise et patrimoine technologique",
         'content'                   => array(
-            'a'                         => "Fondée en 2013, FOXEL SA est le fruit d'une intense veille technologique et de plusieurs années de recherche et développement. Elle bénéficie aujourd'hui d'une solide expertise qui s'exerce dans les domaines de l'imagerie numérique, de l'ingénierie informatique, de l'électronique et de la micromécanique.",
-            'b'                         => "L'expérience cumulée de ses fondateurs, reconnue et soutenue par ses pairs, confère aujourd'hui à FOXEL SA une compétence qui lui permet de répondre aux exigences les plus élevées en termes de gouvernance et de stratégie, doublée d'une maîtrise technologique exceptionnelle.",
+            'a'                         => "Fondée en 2013, FOXEL est le fruit d'une intense veille technologique et de plusieurs années de recherche et développement. Elle bénéficie aujourd'hui d'une solide expertise qui s'exerce dans les domaines de l'imagerie numérique, de l'ingénierie informatique, de l'électronique et de la micromécanique.",
+            'b'                         => "L'expérience cumulée de ses fondateurs, reconnue et soutenue par ses pairs, confère aujourd'hui à FOXEL une compétence qui lui permet de répondre aux exigences les plus élevées en termes de gouvernance et de stratégie, doublée d'une maîtrise technologique exceptionnelle.",
             'c'                         => "Notre expertise et notre spécialisation dans les domaines de la stéréophotogrammétrie, de la mesure ainsi que des systèmes embarqués, nous positionne au cœur des grandes innovations d'aujourd'hui et de demain.",
             'd'                         => "Au bénéfice d'un important patrimoine technologique, nous identifions, nous conceptualisons et nous intégrons des composants matériels et logiciels, tous issus de technologies standardisées et pérennes. C'est ainsi que nous sommes en mesure de fournir à nos Clients des produits et des services à haute valeur ajoutée."
         )
@@ -72,7 +72,7 @@ return array(
     'ethics'                    => array(
         'subtitle'                  => "Déontologie et éthique de travail",
         'content'                   => array(
-            'a'                         => "La société FOXEL SA a adopté le <em>Code d'éthique et de déontologie <a href=\":kalix\" target=\"_blank\">Kalix</a></em>. Ce dernier favorise la reconnaissance et l'épanouissement de l'individu dans l'entreprise et défend les principes de l'économie contributive.",
+            'a'                         => "FOXEL a adopté le <em>Code d'éthique et de déontologie <a href=\":kalix\" target=\"_blank\">Kalix</a></em>. Ce dernier favorise la reconnaissance et l'épanouissement de l'individu dans l'entreprise et défend les principes de l'économie contributive.",
             'b'                         => "La société est également au nombre des adhérents de la <em>Charte d’éthique de la 3D (<a href=\":3dok\" target=\"_blank\">3DOK</a>)</em> pour la promotion et l'usage d'une 3D éthique."
         )
     ),
@@ -80,10 +80,10 @@ return array(
     'network'                   => array(
         'subtitle'                  => "Réseau international de compétences",
         'content'                   => array(
-            'a'                         => "FOXEL SA bénéficie d'un réseau international composé de fondations, de partenaires universitaires et académiques, de sociétés et d'ingénieurs spécialisés dans la recherche et le développement de nouvelles solutions technologiques basées sur le principe <em>Creative Commons</em>.",
+            'a'                         => "FOXEL bénéficie d'un réseau international composé de fondations, de partenaires universitaires et académiques, de sociétés et d'ingénieurs spécialisés dans la recherche et le développement de nouvelles solutions technologiques basées sur le principe <em>Creative Commons</em>.",
             'b'                         => "Nous sommes au bénéfice d'un partenariat privilégié avec la société <a href=\":elphel\" target=\"_blank\">Elphel, Inc.</a>, concepteur de solutions d'imagerie numérique utilisées notamment au sein des projets <em>Google Street View&trade;</em> et <em>RQ-4 Global Hawk&trade;</em>.",
             'c'                         => "Nous contribuons activement au développement de projets <em>Open Hardware</em> et <em>Free Software</em> issus de cette technologie et en assurons l'ingénierie et la commercialisation.",
-            'd'                         => "La société FOXEL SA soutient et participe annuellement aux <em>Rencontres Mondiales du Logiciel Libre (<a href=\":rmll\" target=\"_blank\">RMLL</a>)</em>. Nous organisons régulièrement des tiers-lieux, conférences et tables rondes, en partenariat avec nos Clients et les acteurs de notre réseau de compétences."
+            'd'                         => "FOXEL soutient et participe annuellement aux <em>Rencontres Mondiales du Logiciel Libre (<a href=\":rmll\" target=\"_blank\">RMLL</a>)</em>. Nous organisons régulièrement des tiers-lieux, conférences et tables rondes, en partenariat avec nos Clients et les acteurs de notre réseau de compétences."
         )
     ),
 

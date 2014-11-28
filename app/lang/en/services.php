@@ -45,7 +45,7 @@ return array(
 
     'content'                   => array(
         'a'                         => "The technologies of today are more than ever the nerve centre of our global economy.  Both social and economic aspects of governance and leadership lie at the heart of an important technological and informational patrimony. Complete control over this patrimony has become a crucial part in facing the challenges of today and the future.",
-        'b'                         => "In the development of every project, we ensure the transfer of knowledge and skills to our Clients' technical teams. FOXEL SA offers solutions, as well as training and support methods, in order to ensure the consolidation and control over your patrimony.",
+        'b'                         => "In the development of every project, we ensure the transfer of knowledge and skills to our Clients' technical teams. FOXEL offers solutions, as well as training and support methods, in order to ensure the consolidation and control over your patrimony.",
         'c'                         => "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their digital territory. This surely requires that we work with the most reputed, well-established and knowledgeable Partners in each country within which we start operations."
     ),
 

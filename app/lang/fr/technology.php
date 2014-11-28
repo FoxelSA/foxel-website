@@ -52,7 +52,7 @@ return array(
     ),
 
     'content'                   => array(
-        'a'                         => "FOXEL SA maîtrise la globalité de la chaîne de développement, allant de la conceptualisation de systèmes électroniques et d'outils de mesure jusqu'au développement de logiciels spécifiques.",
+        'a'                         => "FOXEL maîtrise la globalité de la chaîne de développement, allant de la conceptualisation de systèmes électroniques et d'outils de mesure jusqu'au développement de logiciels spécifiques.",
         'b'                         => "Notre politique de l'innovation différencie la technologie (science) de ses applications (produits). Cette approche renforce significativement nos liens avec les communautés scientifiques, les centres de recherche et les réseaux universitaires.",
         'c'                         => "La formation continue et la veille technologique font partie de nos priorités."
     ),

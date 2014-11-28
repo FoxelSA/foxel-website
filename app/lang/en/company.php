@@ -62,8 +62,8 @@ return array(
     'expertise'                 => array(
         'subtitle'                  => "Expertise and Technological Patrimony",
         'content'                   => array(
-            'a'                         => "Founded in 2013, FOXEL SA is the result of intense technology watch and of several years of research and development. Today, it benefits from solid expertise in digital imaging, computer engineering, electronics and micro-mechanics.",
-            'b'                         => "The cumulative experience of its founders, recognized and supported by their peers, confers on FOXEL SA an expertise which enables it to meet the requirements of the highest level in terms of governance and strategy, coupled with exceptional technological know-how.",
+            'a'                         => "Founded in 2013, FOXEL is the result of intense technology watch and of several years of research and development. Today, it benefits from solid expertise in digital imaging, computer engineering, electronics and micro-mechanics.",
+            'b'                         => "The cumulative experience of its founders, recognized and supported by their peers, confers on FOXEL an expertise which enables it to meet the requirements of the highest level in terms of governance and strategy, coupled with exceptional technological know-how.",
             'c'                         => "Our expertise and specialization in the fields of stereophotogrammetry, measurement and embedded systems places us at the heart of the great innovations of the present and the future.",
             'd'                         => "In order to build key technological patrimony, we identify, conceptualize and integrate hardware and software components stemming from standardized and sustainable technologies. We are thus able to provide our Clients with high-value-added products and services."
         )
@@ -72,7 +72,7 @@ return array(
     'ethics'                    => array(
         'subtitle'                  => "Professional and Business Ethics",
         'content'                   => array(
-            'a'                         => "FOXEL SA has adopted the <em><a href=\":kalix\" target=\"_blank\">Kalix</a> code of professional and business ethics</em>. The Kalix code favors the recognition and fulfilment of the individual in the business enterprise and supports the principles of the contributive economy.",
+            'a'                         => "FOXEL has adopted the <em><a href=\":kalix\" target=\"_blank\">Kalix</a> code of professional and business ethics</em>. The Kalix code favors the recognition and fulfilment of the individual in the business enterprise and supports the principles of the contributive economy.",
             'b'                         => "The company is also among the members of the <em>3D Ethics Charter (<a href=\":3dok\" target=\"_blank\">3DOK</a>)</em> for the promotion and use of ethical 3D."
         )
     ),
@@ -80,10 +80,10 @@ return array(
     'network'                   => array(
         'subtitle'                  => "International Know-How Network",
         'content'                   => array(
-            'a'                         => "FOXEL SA benefits from an international network, comprising foundations, university and academic partners, business enterprises and engineers, specializing in the research and development of new technological solutions based on the <em>Creative Commons</em> principle.",
+            'a'                         => "FOXEL benefits from an international network, comprising foundations, university and academic partners, business enterprises and engineers, specializing in the research and development of new technological solutions based on the <em>Creative Commons</em> principle.",
             'b'                         => "We benefit from a privileged partnership with the company <a href=\":elphel\" target=\"_blank\">Elphel, Inc.</a>, designer of digital imaging solutions specifically used in the <em>Google Street View&trade;</em> and <em>RQ-4 Global Hawk&trade;</em> projects.",
             'c'                         => "We actively contribute to the development of <em>Open Hardware</em> and <em>Free Software</em> projects resulting from this technology and we ensure the engineering and marketing.",
-            'd'                         => "We support and participate annually in the <em>Libre Software Meeting (<a href=\":rmll\" target=\"_blank\">RMLL / LSM</a>)</em> and we regularly organize third places, conferences and round-table discussions in partnership with our Clients and members of our know-how network."
+            'd'                         => "FOXEL support and participate annually in the <em>Libre Software Meeting (<a href=\":rmll\" target=\"_blank\">RMLL / LSM</a>)</em>. We regularly organize third places, conferences and round-table discussions in partnership with our Clients and members of our know-how network."
         )
     ),
 

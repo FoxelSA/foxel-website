@@ -52,7 +52,7 @@ return array(
     ),
 
     'content'                   => array(
-        'a'                         => "FOXEL SA masters the entire development chain, from the conceptualization and design of electronic systems and measurement tools to the development of specific software.",
+        'a'                         => "FOXEL masters the entire development chain, from the conceptualization and design of electronic systems and measurement tools to the development of specific software.",
         'b'                         => "Our innovation policy distinguishes between technology (science) and its applications (products). This approach significantly strengthens our links with scientific communities, research centers and academic networks.",
         'c'                         => "Ongoing training and constant watch on technological advances are part of our priorities."
     ),
