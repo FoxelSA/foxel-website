@@ -44,7 +44,7 @@ return array(
     'title'                     => "Stéréophotogrammétrie et<br />innovation en numérisation d'environnements 3D",
 
     'content'                   => array(
-        'a'                         => "Les technologies sont aujourd'hui plus que jamais le centre névralgique de l'économie mondiale. Vecteur de gouvernance et de leadership tant social qu'économique, la totale maîtrise de son patrimoine technologique et informationnel est devenue une obligation pour faire face aux défis actuels et futurs.",
+        'a'                         => "Les technologies sont aujourd'hui plus que jamais le centre névralgique de l'économie mondiale. Elles sont vecteur de gouvernance et de leadership tant social qu'économique. La totale maîtrise du patrimoine technologique et informationnel est devenu une obligation pour faire face aux défis actuels et futurs.",
         'b'                         => "Dans l'ensemble des projets que nous développons, nous assurons le transfert de connaissances et de compétences aux équipes techniques de nos Clients. FOXEL propose des solutions et des méthodes d'accompagnement et de formation pour assurer la consolidation et la maîtrise de votre patrimoine.",
         'c'                         => "Notre modèle et son approche générale ouvrent la voie vers la réappropriation du territoire numérique de nos clients et la reprise du contrôle de leurs données. Ceci implique que nous travaillons avec des partenaires bien établis, bénéficiant d'une réputation exemplaire et possédant la parfaite connaissance du pays dans lequel nous nous engageons."
     ),
