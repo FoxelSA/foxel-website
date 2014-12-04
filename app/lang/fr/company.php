@@ -41,10 +41,10 @@
 return array(
 
     'head'                      => "À propos de la société",
-    'title'                     => "Expert en numérisation<br />stéréophotogrammétrique d'environnements 3D",
+    'title'                     => "Expert en stéréophotogrammétrie<br />et numérisation 3D-métrique d'environnement",
 
     'content'                   => array(
-        'a'                         => "Notre mission est de développer des solutions technologiques pour la numérisation d'environnements 3D, basées sur des technologies sous licences CERN OHL et compatibles GNU GPL.",
+        'a'                         => "Notre mission est de développer des solutions technologiques pour la numérisation 3D-métrique d'environnement, basées sur des technologies sous licences CERN OHL et compatibles GNU GPL.",
         'b'                         => "Nous apportons également à nos Clients :",
             'b_alternate'               => "Nous apportons également à nos Clients la maîtrise du patrimoine technologique et informationnel, des solutions pérennes, du savoir technologique, des vecteurs d'innovation, le sens des responsabilités, de la franchise et de l'estime.",
         'c'                         => array(

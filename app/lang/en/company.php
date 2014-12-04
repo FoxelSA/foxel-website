@@ -41,10 +41,10 @@
 return array(
 
     'head'                      => "About the Company",
-    'title'                     => "Expert in Stereophotogrammetry<br />and 3D Environment Digitizing",
+    'title'                     => "Expert in Stereophotogrammetry<br />and 3D-metric Environment Digitizing",
 
     'content'                   => array(
-        'a'                         => "Our mission is to develop technological solutions dedicated to 3D environment digitizing using technologies based on the CERN OHL license and other GNU GPL compatible licenses.",
+        'a'                         => "Our mission is to develop technological solutions dedicated to 3D-metric environment digitizing using technologies based on the CERN OHL license and other GNU GPL compatible licenses.",
         'b'                         => "We also bring to our Clients:",
             'b_alternate'               => "We also bring to our Clients mastery of technological and informational patrimony, sustainable solutions, technological knowledge, vector of innovation, sense of responsibility, openness and integrity.",
         'c'                         => array(
