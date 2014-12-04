@@ -40,7 +40,7 @@
 
 return array(
 
-    'meta'                      => "Expert en numérisation stéréophotogrammétrique d'environnements 3D",
+    'meta'                      => "Expert en stéréophotogrammétrie et numérisation 3D-métrique d'environnement",
 
     'news'                      => array(
         'title'                     => "Actualités",

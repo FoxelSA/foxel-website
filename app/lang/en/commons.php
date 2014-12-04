@@ -40,7 +40,7 @@
 
 return array(
 
-    'meta'                      => "Expert in Stereophotogrammetry and 3D Environment Digitizing",
+    'meta'                      => "Expert in Stereophotogrammetry and 3D-metric Environment Digitizing",
 
     'news'                      => array(
         'title'                     => "News",
