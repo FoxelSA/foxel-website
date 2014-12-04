@@ -95,24 +95,24 @@
 
         <div class="services noa">
             <div class="item">
-                <a href="{{{ route('services') }}}"><img src="{{{ asset('img/services/digitization.png') }}}" alt="" /></a>
-                <div class="caption">{{ Lang::get('services.dedicated.digitization.name') }}</div>
-                <div class="info"><div class="inner">{{ Lang::get('services.dedicated.digitization.desc') }}</div></div>
+                <a href="{{{ route('products') }}}"><img src="{{{ asset('img/services/digitization.png') }}}" alt="" /></a>
+                <div class="caption">{{ Lang::get('products.dedicated.digitization.name') }}</div>
+                <div class="info"><div class="inner">{{ Lang::get('products.dedicated.digitization.desc') }}</div></div>
             </div>
             <div class="item">
-                <a href="{{{ route('services') }}}"><img src="{{{ asset('img/services/engineering.png') }}}" alt="" /></a>
-                <div class="caption">{{ Lang::get('services.dedicated.engineering.name') }}</div>
-                <div class="info"><div class="inner">{{ Lang::get('services.dedicated.engineering.desc') }}</div></div>
+                <a href="{{{ route('products') }}}"><img src="{{{ asset('img/services/engineering.png') }}}" alt="" /></a>
+                <div class="caption">{{ Lang::get('products.dedicated.engineering.name') }}</div>
+                <div class="info"><div class="inner">{{ Lang::get('products.dedicated.engineering.desc') }}</div></div>
             </div>
             <div class="item">
-                <a href="{{{ route('services') }}}"><img src="{{{ asset('img/services/innovation.png') }}}" alt="" /></a>
-                <div class="caption">{{ Lang::get('services.dedicated.innovation.name') }}</div>
-                <div class="info"><div class="inner">{{ Lang::get('services.dedicated.innovation.desc') }}</div></div>
+                <a href="{{{ route('products') }}}"><img src="{{{ asset('img/services/innovation.png') }}}" alt="" /></a>
+                <div class="caption">{{ Lang::get('products.dedicated.innovation.name') }}</div>
+                <div class="info"><div class="inner">{{ Lang::get('products.dedicated.innovation.desc') }}</div></div>
             </div>
             <div class="item">
-                <a href="{{{ route('services') }}}"><img src="{{{ asset('img/services/systems.png') }}}" alt="" /></a>
-                <div class="caption">{{ Lang::get('services.dedicated.systems.name') }}</div>
-                <div class="info"><div class="inner">{{ Lang::get('services.dedicated.systems.desc') }}</div></div>
+                <a href="{{{ route('products') }}}"><img src="{{{ asset('img/services/systems.png') }}}" alt="" /></a>
+                <div class="caption">{{ Lang::get('products.dedicated.systems.name') }}</div>
+                <div class="info"><div class="inner">{{ Lang::get('products.dedicated.systems.desc') }}</div></div>
             </div>
         </div>
 
@@ -134,10 +134,10 @@
         <div class="appear contributive">
             <div class="bound">
                 <div class="inner">
-                    <h2>{{ Lang::get('services.contributive.subtitle_alternate') }}</h2>
-                    <p>{{ Lang::get('services.contributive.content.a',array('gpl'=>'http://www.gnu.org/licenses/licenses.html#GPL','eupl'=>'https://joinup.ec.europa.eu/software/page/eupl','cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
-                    <p>{{ Lang::get('services.contributive.content.b') }}</p>
-                    <p>{{ Lang::get('services.contributive.content.c') }}</p>
+                    <h2>{{ Lang::get('products.contributive.subtitle_alternate') }}</h2>
+                    <p>{{ Lang::get('products.contributive.content.a',array('gpl'=>'http://www.gnu.org/licenses/licenses.html#GPL','eupl'=>'https://joinup.ec.europa.eu/software/page/eupl','cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
+                    <p>{{ Lang::get('products.contributive.content.b') }}</p>
+                    <p>{{ Lang::get('products.contributive.content.c') }}</p>
                 </div>
             </div>
         </div>

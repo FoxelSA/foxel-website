@@ -87,7 +87,7 @@
         <div class="column">
             <ul class="big">
                 <li>{{ Lang::get('investors.content.b.0') }}</li>
-                <li>{{ Lang::get('investors.content.b.1',array('services'=>route('services'))) }}</li>
+                <li>{{ Lang::get('investors.content.b.1',array('services'=>route('products'))) }}</li>
                 <li>{{ Lang::get('investors.content.b.2',array('technology'=>route('technology'))) }}</li>
                 <li>{{ Lang::get('investors.content.b.3',array('license'=>route('license'))) }}</li>
             </ul>

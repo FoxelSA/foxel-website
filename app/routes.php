@@ -90,7 +90,11 @@ Route::group(array('prefix'=>$locale),function()
         }));
 
     Route::get(Lang::get('routes.services.uri'), array('as'=>'services',function() {
-        return View::make('services');
+        return Redirect::route('products');
+    }));
+
+    Route::get(Lang::get('routes.products.uri'), array('as'=>'products',function() {
+        return View::make('products');
     }));
 
     Route::get(Lang::get('routes.technology.uri'), array('as'=>'technology',function() {

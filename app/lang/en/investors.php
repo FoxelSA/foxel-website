@@ -44,7 +44,7 @@ return array(
     'title'                     => "Why Partner with Us?",
 
     'content'                   => array(
-        'a'                         => "Because we are among the world leaders in the 3D digitization of environments for the appropriation of digital territory.",
+        'a'                         => "Because we are among the world leaders in the 3D-metric digitization of environments for the appropriation of digital territory.",
         'b'                         => array(
             '0'                         => "Our impressive client portfolio bears witness to the endorsement of our technological expertise by major market players;",
             '1'                         => "We provide <a href=\":services\">specialized products and solutions</a> designed for Big Data acquisition and the development of integrated information systems to assist governments and other major clients in spatial management (geomatics, geology, architecture, civil engineering, urban planning, archeology, police, army, forensic sciences, accidentology, disasters, industry, tourism, biology, environment);",
@@ -74,7 +74,7 @@ return array(
             'b'                         => "FOXEL's <a href=\":dynamic\">business model and technological approach</a> provide our Clients and Partners with a reliable solution for integrating tangible applications aimed at re-appropriating digital territory while ensuring sovereignty over their data and innovation processes.",
             'c'                         => "The <a href=\":technology\">technologies deployed by FOXEL</a> have set a new standard in 3D-metric reconstruction capacity, using dense point clouds composed of paired geolocalized pixels from several photographs of a given environment. This represents a concrete technological response to a variety of major challenges.",
             'd'                         => "These same technologies offer countless application possibilities, ranging from territory management needs to training. Moreover, they have the potential for generating capital profit centres for FOXEL's Clients and Partners.",
-            'e'                         => "With growing international recognition, FOXEL enjoys the full support of all of the strategic, industrial and technological resources it needs to attain its objectives and to become the world leader in the 3D-digitizing of environments in the years ahead."
+            'e'                         => "With growing international recognition, FOXEL enjoys the full support of all of the strategic, industrial and technological resources it needs to attain its objectives and to become the world leader in the 3D-metric digitizing of environments in the years ahead."
         )
     )
 

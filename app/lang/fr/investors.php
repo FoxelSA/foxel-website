@@ -44,7 +44,7 @@ return array(
     'title'                     => "Pourquoi investir avec nous ?",
 
     'content'                   => array(
-        'a'                         => "C'est rejoindre l'un des leaders mondiaux de la numérisation 3D-métrique d'environnements au service de la réappropriation du territoire numérique.",
+        'a'                         => "C'est rejoindre l'un des leaders mondiaux de la numérisation 3D-métrique d'environnement au service de la réappropriation du territoire numérique.",
         'b'                         => array(
             '0'                         => "C'est déjà des références clients majeurs et une expertise technologique approuvée par plusieurs des grands acteurs du marché ;",
             '1'                         => "Ce sont <a href=\":services\">des solutions et des produits spécialisés</a> pour l'acquisition de Big Data et le développement de systèmes d'information transversaux au service des gouvernements et des grands comptes pour la gestion du territoire (géomatique, géologie, architecture, génie civil, urbanisme, archéologie, police, armée, sciences forensiques, accidentologie, catastrophes, industries, tourisme, biologie, environnement) ;",

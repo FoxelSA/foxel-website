@@ -41,7 +41,7 @@
 return array(
 
     'head'                      => "Stereophotogrammetry Solutions",
-    'title'                     => "Expert in<br />Stereophotogrammetry and<br />3D Environment Digitizing",
+    'title'                     => "Stereophotogrammetry<br />and 3D-metric Environment<br />Digitizing",
 
     'domains'                   => array(
                                     array(

@@ -62,7 +62,11 @@ return array(
     ),
     'services'          => array(
         'uri'               => 'services',
-        'nav'               => 'Services'
+        'nav'               => NULL
+    ),
+    'products'          => array(
+        'uri'               => 'products',
+        'nav'               => 'Produits'
     ),
     'technology'        => array(
         'uri'               => 'technologie',

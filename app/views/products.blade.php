@@ -43,67 +43,22 @@
 ?>
 
 @section('head')
-{{ Lang::get('services.head') }}
+{{ Lang::get('products.head') }}
 @stop
 
 @section('data')
 
-    <h2>{{ Lang::get('services.title') }}</h2>
-
-    <div class="columns" style="margin-top:15px;">
-        <div class="column">
-            <p>{{ Lang::get('services.content.a') }}</p>
-            <p>{{ Lang::get('services.content.b') }}</p>
-        </div>
-        <div class="column">
-            <p>{{ Lang::get('services.content.c') }}</p>
-        </div>
-    </div>
-
-    <div class="columns" style="margin-top:15px;">
-        <div class="column" style="margin-top:15px;">
-            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/digitization-icon.png') }}}" width="60" height="50" alt="" /></div>
-            <div style="margin-top:13px;margin-left:70px;">
-                <p class="low left"><strong>{{ Lang::get('services.dedicated.digitization.name') }}</strong></p>
-                <p class="left">{{ Lang::get('services.dedicated.digitization.desc') }}</p>
-            </div>
-        </div>
-        <div class="column" style="margin-top:15px;">
-            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/engineering-icon.png') }}}" width="60" height="50" alt="" /></div>
-            <div style="margin-top:13px;margin-left:70px;">
-                <p class="low left"><strong>{{ Lang::get('services.dedicated.engineering.name') }}</strong></p>
-                <p class="left">{{ Lang::get('services.dedicated.engineering.desc') }}</p>
-            </div>
-        </div>
-    </div>
-    <div class="columns">
-        <div class="column">
-            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/innovation-icon.png') }}}" width="60" height="50" alt="" /></div>
-            <div style="margin-top:13px;margin-left:70px;">
-                <p class="low left"><strong>{{ Lang::get('services.dedicated.innovation.name') }}</strong></p>
-                <p class="left">{{ Lang::get('services.dedicated.innovation.desc') }}</p>
-            </div>
-        </div>
-        <div class="column">
-            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/systems-icon.png') }}}" width="60" height="50" alt="" /></div>
-            <div style="margin-top:13px;margin-left:70px;">
-                <p class="low left"><strong>{{ Lang::get('services.dedicated.systems.name') }}</strong></p>
-                <p class="left">{{ Lang::get('services.dedicated.systems.desc') }}</p>
-            </div>
-        </div>
-    </div>
-
-    <h3 style="padding-top:10px;">{{ Lang::get('services.gis.subtitle') }}</h3>
+    <h2>{{ Lang::get('products.title') }}</h2>
 
     <div class="columns">
         <div class="column">
-            <p>{{ Lang::get('services.gis.content.a') }}</p>
-            <p>{{ Lang::get('services.gis.content.b') }}</p>
+            <p>{{ Lang::get('products.gis.content.a') }}</p>
+            <p>{{ Lang::get('products.gis.content.b') }}</p>
         </div>
         <div class="column">
-            <p>{{ Lang::get('services.gis.content.c') }}</p>
-            <p>{{ Lang::get('services.gis.content.d') }}</p>
-            <p>{{ Lang::get('services.gis.content.e') }}</p>
+            <p>{{ Lang::get('products.gis.content.c') }}</p>
+            <p>{{ Lang::get('products.gis.content.d') }}</p>
+            <p>{{ Lang::get('products.gis.content.e') }}</p>
         </div>
     </div>
 
@@ -112,15 +67,60 @@
         <img src="{{{ asset('img/services/gis.png') }}}" class="auto center" alt="" />
     </p>
 
-    <h3>{{ Lang::get('services.contributive.subtitle') }}</h3>
+    <h3>{{ Lang::get('products.services.subtitle') }}</h3>
+
+    <div class="columns" style="margin-top:15px;">
+        <div class="column">
+            <p>{{ Lang::get('products.services.content.a') }}</p>
+            <p>{{ Lang::get('products.services.content.b') }}</p>
+        </div>
+        <div class="column">
+            <p>{{ Lang::get('products.services.content.c') }}</p>
+        </div>
+    </div>
+
+    <div class="columns" style="margin-top:15px;">
+        <div class="column" style="margin-top:15px;">
+            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/digitization-icon.png') }}}" width="60" height="50" alt="" /></div>
+            <div style="margin-top:13px;margin-left:70px;">
+                <p class="low left"><strong>{{ Lang::get('products.dedicated.digitization.name') }}</strong></p>
+                <p class="left">{{ Lang::get('products.dedicated.digitization.desc') }}</p>
+            </div>
+        </div>
+        <div class="column" style="margin-top:15px;">
+            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/engineering-icon.png') }}}" width="60" height="50" alt="" /></div>
+            <div style="margin-top:13px;margin-left:70px;">
+                <p class="low left"><strong>{{ Lang::get('products.dedicated.engineering.name') }}</strong></p>
+                <p class="left">{{ Lang::get('products.dedicated.engineering.desc') }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/innovation-icon.png') }}}" width="60" height="50" alt="" /></div>
+            <div style="margin-top:13px;margin-left:70px;">
+                <p class="low left"><strong>{{ Lang::get('products.dedicated.innovation.name') }}</strong></p>
+                <p class="left">{{ Lang::get('products.dedicated.innovation.desc') }}</p>
+            </div>
+        </div>
+        <div class="column">
+            <div style="position:absolute;top:0;left:0;"><img src="{{{ asset('img/services/systems-icon.png') }}}" width="60" height="50" alt="" /></div>
+            <div style="margin-top:13px;margin-left:70px;">
+                <p class="low left"><strong>{{ Lang::get('products.dedicated.systems.name') }}</strong></p>
+                <p class="left">{{ Lang::get('products.dedicated.systems.desc') }}</p>
+            </div>
+        </div>
+    </div>
+
+    <h3>{{ Lang::get('products.contributive.subtitle') }}</h3>
 
     <div class="columns">
         <div class="column">
-            <p>{{ Lang::get('services.contributive.content.a',array('gpl'=>'http://www.gnu.org/licenses/licenses.html#GPL','eupl'=>'https://joinup.ec.europa.eu/software/page/eupl','cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
+            <p>{{ Lang::get('products.contributive.content.a',array('gpl'=>'http://www.gnu.org/licenses/licenses.html#GPL','eupl'=>'https://joinup.ec.europa.eu/software/page/eupl','cohl'=>'http://www.ohwr.org/projects/cernohl/wiki')) }}</p>
         </div>
         <div class="column">
-            <p>{{ Lang::get('services.contributive.content.b') }}</p>
-            <p>{{ Lang::get('services.contributive.content.c') }}</p>
+            <p>{{ Lang::get('products.contributive.content.b') }}</p>
+            <p>{{ Lang::get('products.contributive.content.c') }}</p>
         </div>
     </div>
 

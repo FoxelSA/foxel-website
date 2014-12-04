@@ -40,17 +40,29 @@
 
 return array(
 
-    'head'                      => "Services",
-    'title'                     => "Stereophotogrammetry and<br />Innovation in 3D Environment Digitizing",
+    'head'                      => "Geographic Information System (GIS)",
+    'title'                     => "Stereophotogrammetry and<br />3D-metric Environment Digitizing",
 
-    'content'                   => array(
-        'a'                         => "The technologies of today are more than ever the nerve centre of our global economy. Both social and economic aspects of governance and leadership lie at the heart of an important technological and informational patrimony. Complete control over this patrimony has become a crucial part in facing the challenges of today and the future.",
-        'b'                         => "In the development of every project, we ensure the transfer of knowledge and skills to our Clients' technical teams. FOXEL offers solutions, as well as training and support methods, in order to ensure the consolidation and control over your patrimony.",
-        'c'                         => "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their digital territory. This surely requires that we work with the most reputed, well-established and knowledgeable Partners in each country within which we start operations."
+    'gis'                       => array(
+        'content'                   => array(
+            'a'                         => "FOXEL specializes in the development of Geographic Information Systems (GIS) designed to capture, store, manipulate, analyze, display and manage all types of spatial or geographical data.",
+            'b'                         => "We provide our Clients with dedicated solutions and location intelligence applications that include, but are not limited to, the development and the integration of software solutions for the editing of data, the analysis of spatial information, data sharing, and reading of our Clients’ geographical data according to their needs. We also develop high-end instruments for the acquisition of highly valuable data.",
+            'c'                         => "Our response to the importance and key characteristics of GIS is to add much more to the basic <em>x, y, z</em> coordinates (longitude, latitude, and elevation) by developing high-performance and high-accuracy analysis and visualization tools thus making available all spatial-temporal location references on Earth.",
+            'd'                         => "Our R&amp;D strives to enhance the utilization of key data in numerous sectors such as engineering, regional and community planning, management, transport and logistics, insurance, telecommunications, national defense and security, natural resources, archaeology, landscape architecture, real estate and many others.",
+            'e'                         => "FOXEL offers a great number of new opportunities in the rapidly growing GIS market, in particular it seeks to put forward optimal solutions easily integrable in the majority of the currently existing systems."
+        )
+    ),
+
+    'services'                  => array(
+        'subtitle'                  => "Digital Territory Reappropriation Services",
+        'content'                   => array(
+            'a'                         => "The technologies of today are more than ever the nerve centre of our global economy. Both social and economic aspects of governance and leadership lie at the heart of an important technological and informational patrimony. Complete control over this patrimony has become a crucial part in facing the challenges of today and the future.",
+            'b'                         => "In the development of every project, we ensure the transfer of knowledge and skills to our Clients' technical teams. FOXEL offers solutions, as well as training and support methods, in order to ensure the consolidation and control over your patrimony.",
+            'c'                         => "Our model and general approach predominantly strives for our Clients to reappropriate control of their data and further, their digital territory. This surely requires that we work with the most reputed, well-established and knowledgeable Partners in each country within which we start operations."
+        )
     ),
 
     'dedicated'                 => array(
-        'subtitle'                  => "Dedicated and Contributory Services",
         'digitization'              => array(
             'name'                      => "Digitization",
             'desc'                      => "Specialized services in environment measurement and digitization using stereophotogrammetry"
@@ -65,18 +77,7 @@ return array(
         ),
         'systems'                   => array(
             'name'                      => "Systems",
-            'desc'                      => "Systems development for digitization and 3D measurement"
-        )
-    ),
-
-    'gis'                       => array(
-        'subtitle'                  => "Geographic Information System (GIS)",
-        'content'                   => array(
-            'a'                         => "FOXEL specializes in the development of Geographic Information Systems (GIS) designed to capture, store, manipulate, analyze, display and manage all types of spatial or geographical data.",
-            'b'                         => "We provide our Clients with dedicated solutions and location intelligence applications that include, but are not limited to, the development and the integration of software solutions for the editing of data, the analysis of spatial information, data sharing, and reading of our Clients’ geographical data according to their needs. We also develop high-end instruments for the acquisition of highly valuable data.",
-            'c'                         => "Our response to the importance and key characteristics of GIS is to add much more to the basic <em>x, y, z</em> coordinates (longitude, latitude, and elevation) by developing high-performance and high-accuracy analysis and visualization tools thus making available all spatial-temporal location references on Earth.",
-            'd'                         => "Our R&amp;D strives to enhance the utilization of key data in numerous sectors such as engineering, regional and community planning, management, transport and logistics, insurance, telecommunications, national defense and security, natural resources, archaeology, landscape architecture, real estate and many others.",
-            'e'                         => "FOXEL offers a great number of new opportunities in the rapidly growing GIS market, in particular it seeks to put forward optimal solutions easily integrable in the majority of the currently existing systems."
+            'desc'                      => "Systems development for digitization and 3D-metric point clouds reconstruction"
         )
     ),
 

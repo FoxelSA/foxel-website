@@ -40,17 +40,29 @@
 
 return array(
 
-    'head'                      => "Services",
-    'title'                     => "Stéréophotogrammétrie et<br />innovation en numérisation d'environnements 3D",
+    'head'                      => "Système d'Information Géographique (SIG/GIS)",
+    'title'                     => "Stéréophotogrammétrie et<br /> numérisation 3D-métrique d'environnement",
 
-    'content'                   => array(
-        'a'                         => "Les technologies sont aujourd'hui plus que jamais le centre névralgique de l'économie mondiale. Elles sont vecteur de gouvernance et de leadership tant social qu'économique. La totale maîtrise du patrimoine technologique et informationnel est devenu une obligation pour faire face aux défis actuels et futurs.",
-        'b'                         => "Dans l'ensemble des projets que nous développons, nous assurons le transfert de connaissances et de compétences aux équipes techniques de nos Clients. FOXEL propose des solutions et des méthodes d'accompagnement et de formation pour assurer la consolidation et la maîtrise de votre patrimoine.",
-        'c'                         => "Notre modèle et son approche générale ouvrent la voie vers la réappropriation du territoire numérique de nos clients et la reprise du contrôle de leurs données. Ceci implique que nous travaillons avec des partenaires bien établis, bénéficiant d'une réputation exemplaire et possédant la parfaite connaissance du pays dans lequel nous nous engageons."
+    'gis'                       => array(
+        'content'                   => array(
+            'a'                         => "FOXEL est spécialisée dans le développement de systèmes d'information géographique (SIG/GIS) permettant l'acquisition, le stockage, la manipulation, l'analyse, la présentation et la gestion de tous les types de données spatiales ou géographiques.",
+            'b'                         => "Nous fournissons à nos clients des solutions dédiées et des applications d'intelligence liée à l'emplacement y inclut, mais sans s'y limiter, le développement et l'intégration de solutions logicielles permettant l'édition des données, l'analyse de l'information spatiale, le partage des données, et la lecture de leurs informations géographiques selon leur besoins. Nous développons également des instruments haut de gamme permettant l'acquisition de données de grande valeur.",
+            'c'                         => "Notre réponse à l'importance du SIG et à ses facteurs caractéristiques est d'apporter bien plus que les coordonnées de bases <em>x, y, z</em>  (longitude, latitude et altitude) en développant des outils d'analyse et de visualisation performants et de grande précision rendant ainsi disponibles toutes les références de localisation spatio-temporelles sur Terre.",
+            'd'                         => "Notre R&amp;D s'efforce de servir et d'améliorer l'utilisation des données clés dans de nombreux secteurs tels que l'ingénierie, la planification régionale et communautaire, la gestion, le transport et la logistique, l'assurance, les télécommunications, la défense nationale et la sécurité, les ressources naturelles, l'archéologie, l'immobilier, et bien d'autres.",
+            'e'                         => "FOXEL propose de nombreuses nouvelles opportunités dans le secteur SIG, marché en pleine croissance, notamment des solutions optimales et facilement intégrables dans la plupart des systèmes existants."
+        )
+    ),
+
+    'services'                  => array(
+        'subtitle'                  => "Services de réappropriation du territoire numérique",
+        'content'                   => array(
+            'a'                         => "Les technologies sont aujourd'hui plus que jamais le centre névralgique de l'économie mondiale. Elles sont vecteur de gouvernance et de leadership tant social qu'économique. La totale maîtrise du patrimoine technologique et informationnel est devenu une obligation pour faire face aux défis actuels et futurs.",
+            'b'                         => "Dans l'ensemble des projets que nous développons, nous assurons le transfert de connaissances et de compétences aux équipes techniques de nos Clients. FOXEL propose des solutions et des méthodes d'accompagnement et de formation pour assurer la consolidation et la maîtrise de votre patrimoine.",
+            'c'                         => "Notre modèle et son approche générale ouvrent la voie vers la réappropriation du territoire numérique de nos clients et la reprise du contrôle de leurs données. Ceci implique que nous travaillons avec des partenaires bien établis, bénéficiant d'une réputation exemplaire et possédant la parfaite connaissance du pays dans lequel nous nous engageons."
+        )
     ),
 
     'dedicated'                 => array(
-        'subtitle'                  => "Services dédiés et services contributifs",
         'digitization'              => array(
             'name'                      => "Numérisation",
             'desc'                      => "Services spécialisés de mesure et de numérisation d'environnements par stéréophotogrammétrie"
@@ -65,18 +77,7 @@ return array(
         ),
         'systems'                   => array(
             'name'                      => "Systèmes",
-            'desc'                      => "Développement de systèmes de numérisation et de mesure 3D"
-        )
-    ),
-
-    'gis'                       => array(
-        'subtitle'                  => "Système d'Information Géographique (SIG/GIS)",
-        'content'                   => array(
-            'a'                         => "FOXEL est spécialisée dans le développement de systèmes d'information géographique (SIG/GIS) permettant l'acquisition, le stockage, la manipulation, l'analyse, la présentation et la gestion de tous les types de données spatiales ou géographiques.",
-            'b'                         => "Nous fournissons à nos clients des solutions dédiées et des applications d'intelligence liée à l'emplacement y inclut, mais sans s'y limiter, le développement et l'intégration de solutions logicielles permettant l'édition des données, l'analyse de l'information spatiale, le partage des données, et la lecture de leurs informations géographiques selon leur besoins. Nous développons également des instruments haut de gamme permettant l'acquisition de données de grande valeur.",
-            'c'                         => "Notre réponse à l'importance du SIG et à ses facteurs caractéristiques est d'apporter bien plus que les coordonnées de bases <em>x, y, z</em>  (longitude, latitude et altitude) en développant des outils d'analyse et de visualisation performants et de grande précision rendant ainsi disponibles toutes les références de localisation spatio-temporelles sur Terre.",
-            'd'                         => "Notre R&amp;D s'efforce de servir et d'améliorer l'utilisation des données clés dans de nombreux secteurs tels que l'ingénierie, la planification régionale et communautaire, la gestion, le transport et la logistique, l'assurance, les télécommunications, la défense nationale et la sécurité, les ressources naturelles, l'archéologie, l'immobilier, et bien d'autres.",
-            'e'                         => "FOXEL propose de nombreuses nouvelles opportunités dans le secteur SIG, marché en pleine croissance, notamment des solutions optimales et facilement intégrables dans la plupart des systèmes existants."
+            'desc'                      => "Développement de systèmes de numérisation et de recontruction 3D-métrique par nuages de points"
         )
     ),
 
