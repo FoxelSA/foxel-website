@@ -700,8 +700,9 @@ var contact = function() {
     var map = L.map('leaflet',{scrollWheelZoom:false}).setView([46.2189251, 6.0875998999999865],12);
 
     // openstreetmap
-    L.tileLayer('http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, '
+                        + '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>'
     }).addTo(map);
 
     // marker
