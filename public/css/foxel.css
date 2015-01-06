@@ -1,7 +1,7 @@
 /**
  * Website of FOXEL SA, Geneva Switzerland.
  *
- * Copyright (c) 2013-2014 FOXEL SA - http://foxel.ch
+ * Copyright (c) 2013-2015 FOXEL SA - http://foxel.ch
  * Please read <http://foxel.ch/license> for more information.
  *
  *
@@ -516,6 +516,12 @@ footer {
                 #triptych .column p {
                     margin-bottom:20px;
                 }
+
+        #triptych .news .sep {
+            margin-top:20px;
+            padding-top:20px;
+            border-top:dotted 1px #333;
+        }
 
         #contacts .item {
             position:relative;
@@ -1087,6 +1093,12 @@ footer {
                             font-size:22px;
                         }
 
+        #sidebar .block.news .sep {
+            margin-top:20px;
+            padding-top:20px;
+            border-top:solid 1px #ddd;
+        }
+
         #sidebar .logo a:hover {
             -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
             filter:alpha(opacity=80);
@@ -1097,6 +1109,12 @@ footer {
 
         #sidebar .logo.inline {
             display:inline-block;
+            margin-right:10px;
+        }
+
+        #sidebar .logo.sspt {
+            margin-top:10px;
+            margin-bottom:25px;
         }
 
     #thankyou {

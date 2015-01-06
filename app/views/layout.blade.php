@@ -3,7 +3,7 @@
 /**
  * Website of FOXEL SA, Geneva Switzerland.
  *
- * Copyright (c) 2013-2014 FOXEL SA - http://foxel.ch
+ * Copyright (c) 2013-2015 FOXEL SA - http://foxel.ch
  * Please read <http://foxel.ch/license> for more information.
  *
  *
@@ -125,7 +125,10 @@
             </div>
             <div class="column middle">
                 <h3>{{ Lang::get('commons.news.title') }}</h3>
-                <p>{{ Lang::get('commons.news.content',array('news'=>route('rmll2014'))) }}</p>
+                <div class="news">
+                    <p>{{ Lang::get('commons.news.content.a') }}</p>
+                    <p class="sep">{{ Lang::get('commons.news.content.b') }}</p>
+                </div>
             </div>
             <div class="column right">
                 <h3>{{ Lang::get('contact.footer') }}</h3>

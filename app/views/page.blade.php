@@ -5,7 +5,7 @@
 /**
  * Website of FOXEL SA, Geneva Switzerland.
  *
- * Copyright (c) 2013-2014 FOXEL SA - http://foxel.ch
+ * Copyright (c) 2013-2015 FOXEL SA - http://foxel.ch
  * Please read <http://foxel.ch/license> for more information.
  *
  *
@@ -63,7 +63,10 @@
 
                 <div class="block noa">
                     <div class="logo">
-                        <a href="http://3dok.info/" target="_blank"><img src="{{{ asset('img/logos/3dok.png') }}}" width="70" alt="3D Ethics Charter" title="3D Ethics Charter" /></a>
+                        <a href="http://3dok.info/" target="_blank"><img src="{{{ asset('img/logos/3dok.png') }}}" width="70" height="70" alt="3D Ethics Charter" title="3D Ethics Charter" /></a>
+                    </div>
+                    <div class="logo sspt">
+                        <a href="http://www.sspt.ch/" target="_blank"><img src="{{{ asset('img/logos/sspt-sgpf.png') }}}" width="232" height="52" alt="SSPT/SGPF" title="SSPT/SGPF" /></a>
                     </div>
                     <div class="logo inline">
                         <a href="http://elphel.com/" target="_blank"><img src="{{{ asset('img/logos/elphel.png') }}}" width="97" height="75" alt="Elphel, Inc." title="Elphel, Inc." /></a>
@@ -75,9 +78,10 @@
                         <a href="http://www.ohwr.org/projects/cernohl/wiki" target="_blank"><img src="{{{ asset('img/logos/cern-ohl.png') }}}" width="38" height="47" alt="CERN Open Hardware License" title="CERN Open Hardware License" /></a>
                     </div>
                 </div>
-                <div class="block">
+                <div class="block news">
                     <h5>{{ Lang::get('commons.news.title') }}</h5>
-                    <p>{{ Lang::get('commons.news.content',array('news'=>route('rmll2014'))) }}</p>
+                    <p>{{ Lang::get('commons.news.content.a') }}</p>
+                    <p class="sep">{{ Lang::get('commons.news.content.b') }}</p>
                 </div>
 
 @show

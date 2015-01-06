@@ -3,7 +3,7 @@
 /**
  * Website of FOXEL SA, Geneva Switzerland.
  *
- * Copyright (c) 2013-2014 FOXEL SA - http://foxel.ch
+ * Copyright (c) 2013-2015 FOXEL SA - http://foxel.ch
  * Please read <http://foxel.ch/license> for more information.
  *
  *
@@ -44,7 +44,10 @@ return array(
 
     'news'                      => array(
         'title'                     => "Actualités",
-        'content'                   => "FOXEL s'inscrit comme fournisseur officiel de <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, la célébration du bicentenaire de l'entrée de Genève dans la Confédération suisse."
+        'content'                   => array(
+            'a'                         => "FOXEL est <a href=\"http://www.sspt.ch/fr/mainmenu-affiliation/mainmenu-la-societe-membres-collectifs\" target=\"_blank\">officiellement affiliée</a> en qualité de membre collectif à la Société suisse de photogrammétrie et de télédétection (<a href=\"http://www.sspt.ch/\" target=\"_blank\">SSPT/SGPF</a>).",
+            'b'                         => "FOXEL s'inscrit comme fournisseur officiel de <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, la célébration du bicentenaire de l'entrée de Genève dans la Confédération suisse."
+        )
     ),
 
     'footer'                    => array(
