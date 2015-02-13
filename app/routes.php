@@ -125,6 +125,10 @@ Route::group(array('prefix'=>$locale),function()
         return View::make('news.rmll.2014.info');
     }));
 
+    Route::get(Lang::get('routes.reborne.uri'), array('as'=>'reborne',function() {
+        return View::make('news.reborne');
+    }));
+
 });
 
 // sendmail

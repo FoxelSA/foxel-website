@@ -126,7 +126,8 @@
             <div class="column middle">
                 <h3>{{ Lang::get('commons.news.title') }}</h3>
                 <div class="news">
-                    <p>{{ Lang::get('commons.news.content.c') }}</p>
+                    <p>{{ Lang::get('commons.news.content.d',array('route'=>route('reborne'))) }}</p>
+                    <p class="sep">{{ Lang::get('commons.news.content.c') }}</p>
                     <p class="sep">{{ Lang::get('commons.news.content.b') }}</p>
                     <p class="sep">{{ Lang::get('commons.news.content.a') }}</p>
                 </div>

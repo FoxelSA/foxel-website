@@ -46,8 +46,9 @@ return array(
         'title'                     => "Actualités",
         'content'                   => array(
             'a'                         => "FOXEL s'inscrit comme fournisseur officiel de <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, la célébration du bicentenaire de l'entrée de Genève dans la Confédération suisse.",
-            'b'                         => "FOXEL est <a href=\"http://www.sspt.ch/fr/mainmenu-affiliation/mainmenu-la-societe-membres-collectifs\" target=\"_blank\">officiellement affiliée</a> en qualité de membre collectif à la Société Suisse de Photogrammétrie et de Télédétection (<a href=\"http://www.sspt.ch/\" target=\"_blank\">SSPT/SGPF</a>).",
-            'c'                         => "FOXEL est <a href=\"http://www.isprs.org/members/SustainingDetails.aspx?id=394\" target=\"_blank\">officiellement affiliée</a> en qualité de membre bienfaiteur à la Société Internationale de Photogrammétrie et de Télédétection (<a href=\"http://www.isprs.org/\" target=\"_blank\">ISPRS</a>).",
+            'b'                         => "FOXEL est <a href=\"http://www.sspt.ch/fr/mainmenu-affiliation/mainmenu-la-societe-membres-collectifs\" target=\"_blank\">officiellement affiliée</a> en qualité de membre <em>(collective member)</em> à la Société Suisse de Photogrammétrie et de Télédétection (<a href=\"http://www.sspt.ch/\" target=\"_blank\">SSPT/SGPF</a>).",
+            'c'                         => "FOXEL est <a href=\"http://www.isprs.org/members/SustainingDetails.aspx?id=394\" target=\"_blank\">officiellement affiliée</a> en qualité de membre <em>(sustaining member)</em> à la Société Internationale de Photogrammétrie et de Télédétection (<a href=\"http://www.isprs.org/\" target=\"_blank\">ISPRS</a>).",
+            'd'                         => "FOXEL <a href=\":route\">soutient l'initiative Re-Borne</a> pour le maintien du patrimoine genevois par son parrainage d'une borne de la frontière nationale du canton de Genève."
         )
     ),
 

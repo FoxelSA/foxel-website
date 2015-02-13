@@ -93,6 +93,10 @@ return array(
     'disclaimer'        => array(
         'uri'               => 'disclaimer',
         'nav'               => NULL
+    ),
+    'reborne'           => array(
+        'uri'               => 'news/re-borne',
+        'nav'               => NULL
     )
 
 );

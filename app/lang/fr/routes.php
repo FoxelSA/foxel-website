@@ -97,6 +97,10 @@ return array(
     'rmll2014'          => array(
         'uri'               => 'actualites/rmll/2014',
         'nav'               => NULL
+    ),
+    'reborne'           => array(
+        'uri'               => 'actualites/re-borne',
+        'nav'               => NULL
     )
 
 );
