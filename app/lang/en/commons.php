@@ -45,8 +45,9 @@ return array(
     'news'                      => array(
         'title'                     => "News",
         'content'                   => array(
-            'a'                         => "FOXEL is <a href=\"http://www.sspt.ch/fr/mainmenu-affiliation/mainmenu-la-societe-membres-collectifs\" target=\"_blank\">officially affiliated</a> as collective member to the Swiss Society for Photogrammetry and Remote Sensing (<a href=\"http://www.sspt.ch/\" target=\"_blank\">SSPT/SGPF</a>).",
-            'b'                         => "FOXEL is proud to be amongst the official suppliers of <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, the celebration of Geneva's bicentennial entry in the Swiss confederation."
+            'a'                         => "FOXEL is proud to be amongst the official suppliers of <a href=\"http://ge200.ch/\" target=\"_blank\">GE200.ch</a>, the celebration of Geneva's bicentennial entry in the Swiss confederation.",
+            'b'                         => "FOXEL is <a href=\"http://www.sspt.ch/fr/mainmenu-affiliation/mainmenu-la-societe-membres-collectifs\" target=\"_blank\">officially affiliated</a> as collective member to the Swiss Society for Photogrammetry and Remote Sensing (<a href=\"http://www.sspt.ch/\" target=\"_blank\">SSPT/SGPF</a>).",
+            'c'                         => "FOXEL is <a href=\"http://www.isprs.org/members/SustainingDetails.aspx?id=394\" target=\"_blank\">officially affiliated</a> as sustaining member to the International Society for Photogrammetry and Remote Sensing (<a href=\"http://www.isprs.org/\" target=\"_blank\">ISPRS</a>)."
         )
     ),
 

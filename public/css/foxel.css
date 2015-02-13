@@ -1112,9 +1112,20 @@ footer {
             margin-right:10px;
         }
 
+        #sidebar .logo.c3dok {
+            position:relative;
+            left:-5px;
+        }
+
+        #sidebar .logo.isprs {
+            position:relative;
+            left:-5px;
+            margin-top:20px;
+        }
+
         #sidebar .logo.sspt {
-            margin-top:10px;
-            margin-bottom:25px;
+            margin-top:15px;
+            margin-bottom:35px;
         }
 
     #thankyou {
