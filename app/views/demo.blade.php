@@ -61,12 +61,31 @@ $chunks = get_basic_demos();
         <div class="column noa">&nbsp;</div>
     </div>
 
+    <h3 class="demo">Point Clouds</h3>
+
+    <div class="columns">
+        <div class="column noa">
+            <p>
+                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=place-de-neuve" target="_blank"><img src="http://demo.foxel.ch/pointcloud/ply/place-de-neuve.png" class="auto center" alt="" /></a>
+                <span class="pano">Place de Neuve</span>
+            </p>
+        </div>
+        <div class="column noa">
+            <p>
+                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=tour-de-boel" target="_blank"><img src="http://demo.foxel.ch/pointcloud/ply/tour-de-boel.png" class="auto center" alt="" /></a>
+                <span class="pano">Rue de la Tour-de-Boël</span>
+            </p>
+        </div>
+    </div>
+
+    <h3 class="demo" style="margin-bottom:16px;">Street View Panoramas</h3>
+
 @foreach ($chunks as $sets)
 
     <div class="columns">
     @foreach ($sets as $set)
         <div class="column noa">
-            <p class="demo">{{ $set->name }}</p>
+            <div class="set">{{ $set->name }}</div>
         @if ($set->path=='dreamsofmouron')
             <p>
                 <a href="{{ Config::get('app.demo') }}/lib/dreamsofmouron/" target="_blank"><img src="{{{ asset('img/demo/dreams-of-mouron.png') }}}" class="auto center" alt="" /></a>
