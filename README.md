@@ -1,15 +1,12 @@
 
 ## Website of FOXEL SA, Geneva Switzerland
 
-The mission of FOXEL SA is to develop technological solutions dedicated to 3D
-environment digitizing using technologies based on the CERN OHL license and
-other GNU GPL compatible licenses.
+The mission of FOXEL SA is to develop technological solutions dedicated to 3D-metric
+environment digitizing using technologies based on the CERN OHL license and other
+GNU GPL compatible licenses.
 
-Our model and general approach predominantly strives for our Clients to
-reappropriate control of their data and further, their digital territory.
-
-The website is built with [Laravel](http://laravel.com) framework and [other
-dependencies](COPYRIGHT.md). Design by Raphael Lourdin.
+Our model and general approach predominantly strives for our Clients to reappropriate
+control of their data and further, their digital territory.
 
 
 ### Copyright
@@ -17,6 +14,7 @@ dependencies](COPYRIGHT.md). Design by Raphael Lourdin.
 Copyright (c) 2013-2015 FOXEL SA - [http://foxel.ch](http://foxel.ch)<br />
 This program is part of the FOXEL project <[http://foxel.ch](http://foxel.ch)>.
 
+This program includes works distributed under other copyright notice(s).<br />
 Please read the [COPYRIGHT.md](COPYRIGHT.md) file for more information.
 
 
@@ -31,3 +29,6 @@ of the
 
 You must read <[http://foxel.ch/license](http://foxel.ch/license)> for more
 information about our Licensing terms and our Usage and Attribution guidelines.
+
+This program includes works distributed under the terms of another license(s).<br />
+Please read the [COPYRIGHT.md](COPYRIGHT.md) file for more information.
