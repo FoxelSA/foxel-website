@@ -48,12 +48,10 @@ return array(
         'uri'               => 'company',
         'nav'               => 'Company',
         'sub'               => array(
-            /*
             'team'              => array(
                 'uri'               => 'team',
-                'nav'               => 'Who we are'
+                'nav'               => 'Team'
             ),
-            */
             'dynamic'           => array(
                 'uri'               => 'dynamic',
                 'nav'               => 'Economic Dynamic'

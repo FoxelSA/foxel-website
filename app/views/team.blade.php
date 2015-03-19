@@ -48,14 +48,171 @@
 
 @section('data')
 
-    <h2>{{ Lang::get('team.title') }}</h2>
+    <h2 style="padding-bottom:10px;">Board</h2>
 
-    <div class="columns">
-        <div class="column">
-            <p>{{ Lang::get('team.content.a') }}</p>
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/olivier-wasem.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Olivier Wasem</div>
+                <div class="title">CEO</div>
+                <div class="dept">Management</div>
+                <div class="more">Chief Executive Officer</div>
+            </div>
         </div>
-        <div class="column">
-            <p>{{ Lang::get('team.content.b') }}</p>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/lionel-lourdin.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Lionel Lourdin</div>
+                <div class="title">COO</div>
+                <div class="dept">Management</div>
+                <div class="more">Chief Operating Officer</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/alexandre-poltorak.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Alexandre Poltorak</div>
+                <div class="title">CTO</div>
+                <div class="dept">Management</div>
+                <div class="more">Chief Technology Officer</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/alexandre-kraft.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Alexandre Kraft</div>
+                <div class="title">CIO</div>
+                <div class="dept">Management</div>
+                <div class="more">Chief Information Officer</div>
+            </div>
+        </div>
+    </div>
+
+    <h2 style="padding-top:20px;padding-bottom:10px;">Team</h2>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/pierre-moulon.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Pierre Moulon</div>
+                <div class="title">PhD degree in Signal, Image and Automatic</div>
+                <div class="dept">Research and Development</div>
+                <div class="more">Photogrammetry + Mathematics</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/stephane-flotron.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Stéphane Flotron</div>
+                <div class="title">PhD in Applied Mathematics</div>
+                <div class="dept">Research and Development</div>
+                <div class="more">Photogrammetry + Mathematics</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/nils-hamel.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Nils Hamel</div>
+                <div class="title">EPF Physicist</div>
+                <div class="dept">Research and Development</div>
+                <div class="more">Inertial Systems + Geodesy</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/luc-deschenaux.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Luc Deschenaux</div>
+                <div class="title">Developer</div>
+                <div class="dept">Development</div>
+                <div class="more">WebGL + Front-end Interfaces</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/kevin-velickovic.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Kevin Velickovic</div>
+                <div class="title">Developer</div>
+                <div class="dept">Development</div>
+                <div class="more">Data Processing Interfaces</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/kevin-frattini.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Kevin Frattini</div>
+                <div class="title">Digitizing Agent</div>
+                <div class="dept">Digitization</div>
+                <div class="more">Data Planning + Acquisition</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/raphael-lourdin.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Raphaël Lourdin</div>
+                <div class="title">Creative Director</div>
+                <div class="dept">Communication</div>
+                <div class="more">Graphic Design + Visual Layouts</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/malory-jessaume.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Malory Jessaume</div>
+                <div class="title">Bachelor Degree in Communication and Free Software</div>
+                <div class="dept">Administration</div>
+                <div class="more">Community Management</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/joelle-egger.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Joëlle Egger</div>
+                <div class="title">Accountant</div>
+                <div class="dept">Administration</div>
+                <div class="more">Accounting + Administration</div>
+            </div>
         </div>
     </div>
 

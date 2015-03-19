@@ -48,12 +48,10 @@ return array(
         'uri'               => 'societe',
         'nav'               => 'Société',
         'sub'               => array(
-            /*
             'team'              => array(
                 'uri'               => 'equipe',
-                'nav'               => 'Qui sommes-nous'
+                'nav'               => 'Equipe'
             ),
-            */
             'dynamic'           => array(
                 'uri'               => 'dynamique',
                 'nav'               => 'Dynamique économique'

@@ -1007,6 +1007,42 @@ footer {
                 margin-left:0;
             }
 
+        #content .columns.team {
+            margin-bottom:15px;
+        }
+
+            #content .columns.team .pic {
+                position:relative;
+                float:left;
+                height:160px;
+            }
+
+                #content .columns.team .pic img {
+                    width:130px;
+                }
+
+            #content .columns.team .people {
+                position:relative;
+                margin-left:155px;
+            }
+
+                #content .columns.team .name {
+                    padding-bottom:8px;
+                    font-size:18px;
+                }
+
+                #content .columns.team .title {
+                    padding-bottom:20px;
+                }
+
+                #content .columns.team .dept {
+                    font-size:12px;
+                }
+
+                #content .columns.team .more {
+                    /* void */
+                }
+
         #content h3 {
             margin-top:30px;
             margin-bottom:28px;
@@ -1747,6 +1783,10 @@ iframe.vimeo.dynamic {
         #content .columns .column {
             margin-left:0;
             width:100%;
+        }
+
+        #content .columns.team {
+            margin-bottom:0;
         }
 
 

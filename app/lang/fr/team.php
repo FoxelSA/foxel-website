@@ -40,12 +40,6 @@
 
 return array(
 
-    'head'                      => "Qui sommes-nous ?",
-    'title'                     => "#title",
-
-    'content'                   => array(
-        'a'                         => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum sit amet sem ut adipiscing. Aenean bibendum ut dolor blandit ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet arcu ut dictum rhoncus.",
-        'b'                         => "Maecenas neque leo, dictum at accumsan vitae, semper eu massa. Quisque rutrum imperdiet pharetra. Nunc venenatis urna vel ligula lacinia, eu porttitor lacus euismod. Aliquam quis egestas nulla."
-    )
+    'head'                      => "L'Équipe"
 
 );
