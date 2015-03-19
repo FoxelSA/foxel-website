@@ -66,14 +66,22 @@ $chunks = get_basic_demos();
     <div class="columns">
         <div class="column noa">
             <p>
-                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=place-de-neuve" target="_blank"><img src="http://demo.foxel.ch/pointcloud/ply/place-de-neuve.png" class="auto center" alt="" /></a>
-                <span class="pano">Place de Neuve</span>
+                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=cathedrale-saint-pierre" target="_blank"><img src="{{ Config::get('app.demo') }}/pointcloud/ply/cathedrale-saint-pierre.png" class="auto center" alt="" /></a>
+                <span class="pano">Cathédrale Saint-Pierre &nbsp;|&nbsp; Geneva, Switzerland</span>
             </p>
         </div>
         <div class="column noa">
             <p>
-                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=tour-de-boel" target="_blank"><img src="http://demo.foxel.ch/pointcloud/ply/tour-de-boel.png" class="auto center" alt="" /></a>
-                <span class="pano">Rue de la Tour-de-Boël</span>
+                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=tour-de-boel" target="_blank"><img src="{{ Config::get('app.demo') }}/pointcloud/ply/tour-de-boel.png" class="auto center" alt="" /></a>
+                <span class="pano">Rue de la Tour-de-Boël &nbsp;|&nbsp; Geneva, Switzerland</span>
+            </p>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column noa">
+            <p>
+                <a href="{{ Config::get('app.demo') }}/pointcloud/?ply=place-de-neuve" target="_blank"><img src="{{ Config::get('app.demo') }}/pointcloud/ply/place-de-neuve.png" class="auto center" alt="" /></a>
+                <span class="pano">Place de Neuve &nbsp;|&nbsp; Geneva, Switzerland</span>
             </p>
         </div>
     </div>
