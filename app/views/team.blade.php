@@ -109,7 +109,7 @@
             </div>
             <div class="people">
                 <div class="name">Pierre Moulon</div>
-                <div class="title">PhD degree in Signal, Image and Automatic</div>
+                <div class="title">PhD in Signal, Image and Automatic</div>
                 <div class="dept">Research and Development</div>
                 <div class="more">Photogrammetry + Mathematics</div>
             </div>
@@ -195,7 +195,7 @@
             </div>
             <div class="people">
                 <div class="name">Malory Jessaume</div>
-                <div class="title">Bachelor Degree in Communication and Free Software</div>
+                <div class="title">Bachelor in Communication and Free Software</div>
                 <div class="dept">Administration</div>
                 <div class="more">Community Management</div>
             </div>
