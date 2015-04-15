@@ -48,7 +48,7 @@
 
 @section('data')
 
-    <h2 style="padding-bottom:10px;">Board</h2>
+    <h2 style="padding-bottom:10px;">Head of Management</h2>
 
     <div class="columns team">
         <div class="column noa">
@@ -58,7 +58,7 @@
             <div class="people">
                 <div class="name">Olivier Wasem</div>
                 <div class="title">CEO</div>
-                <div class="dept">Management</div>
+                <div class="dept">President</div>
                 <div class="more">Chief Executive Officer</div>
             </div>
         </div>
@@ -69,7 +69,7 @@
             <div class="people">
                 <div class="name">Lionel Lourdin</div>
                 <div class="title">COO</div>
-                <div class="dept">Management</div>
+                <div class="dept">Vice-President</div>
                 <div class="more">Chief Operating Officer</div>
             </div>
         </div>
@@ -78,24 +78,24 @@
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/alexandre-poltorak.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name">Alexandre Poltorak</div>
-                <div class="title">CTO</div>
-                <div class="dept">Management</div>
-                <div class="more">Chief Technology Officer</div>
-            </div>
-        </div>
-        <div class="column noa">
-            <div class="pic">
                 <img src="{{{ asset('img/team/alexandre-kraft.jpg') }}}" alt="" />
             </div>
             <div class="people">
                 <div class="name">Alexandre Kraft</div>
                 <div class="title">CIO</div>
-                <div class="dept">Management</div>
+                <div class="dept">Board Member</div>
                 <div class="more">Chief Information Officer</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/nils-hamel.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Nils Hamel</div>
+                <div class="title">CTO</div>
+                <div class="dept">EPF Physicist</div>
+                <div class="more">Chief Technology Officer</div>
             </div>
         </div>
     </div>
@@ -130,13 +130,13 @@
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/nils-hamel.jpg') }}}" alt="" />
+                <img src="{{{ asset('img/team/kevin-velickovic.jpg') }}}" alt="" />
             </div>
             <div class="people">
-                <div class="name">Nils Hamel</div>
-                <div class="title">EPF Physicist</div>
-                <div class="dept">Research and Development</div>
-                <div class="more">Inertial Systems + Geodesy</div>
+                <div class="name">Kevin Velickovic</div>
+                <div class="title">Developer</div>
+                <div class="dept">Development</div>
+                <div class="more">Data Processing Interfaces</div>
             </div>
         </div>
         <div class="column noa">
@@ -155,17 +155,6 @@
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/kevin-velickovic.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name">Kevin Velickovic</div>
-                <div class="title">Developer</div>
-                <div class="dept">Development</div>
-                <div class="more">Data Processing Interfaces</div>
-            </div>
-        </div>
-        <div class="column noa">
-            <div class="pic">
                 <img src="{{{ asset('img/team/kevin-frattini.jpg') }}}" alt="" />
             </div>
             <div class="people">
@@ -175,9 +164,6 @@
                 <div class="more">Data Planning + Acquisition</div>
             </div>
         </div>
-    </div>
-
-    <div class="columns team">
         <div class="column noa">
             <div class="pic">
                 <img src="{{{ asset('img/team/raphael-lourdin.jpg') }}}" alt="" />
@@ -189,6 +175,9 @@
                 <div class="more">Graphic Design + Visual Layouts</div>
             </div>
         </div>
+    </div>
+
+    <div class="columns team">
         <div class="column noa">
             <div class="pic">
                 <img src="{{{ asset('img/team/malory-jessaume.jpg') }}}" alt="" />
@@ -200,9 +189,6 @@
                 <div class="more">Community Management</div>
             </div>
         </div>
-    </div>
-
-    <div class="columns team">
         <div class="column noa">
             <div class="pic">
                 <img src="{{{ asset('img/team/joelle-egger.jpg') }}}" alt="" />
