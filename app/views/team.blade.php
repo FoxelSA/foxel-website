@@ -69,7 +69,7 @@
             <div class="people">
                 <div class="name">Lionel Lourdin</div>
                 <div class="title">COO</div>
-                <div class="dept">Vice-President</div>
+                <div class="dept">Vice President</div>
                 <div class="more">Chief Operating Officer</div>
             </div>
         </div>
