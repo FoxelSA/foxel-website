@@ -202,6 +202,29 @@
         </div>
     </div>
 
+    <h2 style="padding-top:20px;padding-bottom:10px;">Advisory Committee</h2>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/michel-leonard.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name"><br />Pr. Michel Léonard</div>
+                <div class="title">Academic &amp; Service Design</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/raymond-jacot.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name"><br />Raymond Jacot</div>
+                <div class="title">Networking</div>
+            </div>
+        </div>
+    </div>
+
 @stop
 
 @section('sidebar')
