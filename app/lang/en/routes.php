@@ -80,6 +80,28 @@ return array(
             )
         )
     ),
+    'news'              => array(
+        'uri'               => 'news',
+        'nav'               => 'News',
+        'off'               => array(
+            '2015'              => array(
+                'iss'               => array(
+                    'uri'               => 'news/2015/iss-university-geneva',
+                    'nav'               => NULL
+                ),
+                'reborne'           => array(
+                    'uri'               => 'news/2015/re-borne-initiative',
+                    'nav'               => NULL
+                )
+            ),
+            '2014'              => array(
+                'rmll'              => array(
+                    'uri'               => 'news/2014/rmll-lsm-montpellier',
+                    'nav'               => NULL
+                )
+            )
+        )
+    ),
     'investors'         => array(
         'uri'               => 'investors',
         'nav'               => 'Investors'
@@ -90,10 +112,6 @@ return array(
     ),
     'disclaimer'        => array(
         'uri'               => 'disclaimer',
-        'nav'               => NULL
-    ),
-    'reborne'           => array(
-        'uri'               => 'news/re-borne',
         'nav'               => NULL
     )
 

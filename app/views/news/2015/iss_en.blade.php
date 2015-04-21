@@ -1,3 +1,5 @@
+@extends('page')
+
 <?php
 
 /**
@@ -38,35 +40,29 @@
  *      Attribution" section of <http://foxel.ch/license>.
  */
 
+?>
 
-/**
- * render_navigation()
- */
-function render_navigation($depth=-1,$tree=NULL,&$html='',$level=0,$preroute='') {
+@section('head')
+{{ Lang::get('news.head') }} | Convention between ISS, FOXEL and CINTCOM
+@stop
 
-    $html .= $level > 0 ? '<ul class="sub l'.$level.'">' : '<ul>';
+@section('data')
 
-    if (is_null($tree))
-        $tree = Lang::get('routes');
+    <h2>Setting up of Digital Commons by <br />means of TiersLieu</h2>
 
-    foreach ($tree as $route => $item) {
+    <p><em>Press Release | Geneva, April 21st, 2015</em></p>
 
-        if (isset($item['nav']) && $item['nav'] != NULL) {
+    <p style="font-weight:700;">University of Geneva's <a href="http://iss.unige.ch" target="_blank">Institute of Information Service Science</a> (ISS), <a href="http://foxel.ch" target="_blank">FOXEL SA</a> and the CINTCOM foundation establish a convention aiming at developing their respective explorations.</p>
+    <p>This convention covers the domains of large scale digital scanning of geographic territory/space, setting up of digital commons, management of technological and informational heritage, deployment of projects related to Smart Cities or Smart Regions. This partnership concerns research, teaching, and establishment of TiersLieu in relation with the above topics.</p>
 
-            $html .= '<li>';
-            $html .= '<a href="'.route($route).($route=='home'?'/':'').'"'.($route==Route::currentRouteName()?' class="active"':'').'>'.$item['nav'].'</a>';
+    <ul>
+        <li><a href="{{ asset(Lang::get('news.2015.iss.pdf')) }}" target="_blank">Read the Press Release</a></li>
+    </ul>
 
-            if (isset($item['sub']) && is_array($item['sub'])) {
-                if ($depth == -1 || $level < $depth)
-                    render_navigation($depth,$item['sub'],$html,$level+1,$preroute.$route.'.sub.');
-            }
+@stop
 
-            $html .= '</li>';
-        }
-    }
+@section('sidebar')
 
-    $html .= '</ul>';
+    @parent
 
-    return $html;
-
-}
+@stop

@@ -121,13 +121,21 @@ Route::group(array('prefix'=>$locale),function()
         return View::make('disclaimer');
     }));
 
-    Route::get(Lang::get('routes.rmll2014.uri'), array('as'=>'rmll2014',function() {
-        return View::make('news.rmll.2014.info');
+    Route::get(Lang::get('routes.news.uri'), array('as'=>'news',function() {
+        return View::make('news');
     }));
 
-    Route::get(Lang::get('routes.reborne.uri'), array('as'=>'reborne',function() {
-        return View::make('news.reborne');
-    }));
+        Route::get(Lang::get('routes.news.off.2015.iss.uri'), array('as'=>'news.2015.iss',function() {
+            return View::make('news.2015.iss_'.App::getLocale());
+        }));
+
+        Route::get(Lang::get('routes.news.off.2015.reborne.uri'), array('as'=>'news.2015.reborne',function() {
+            return View::make('news.2015.reborne');
+        }));
+
+        Route::get(Lang::get('routes.news.off.2014.rmll.uri'), array('as'=>'news.2014.rmll',function() {
+            return View::make('news.2014.rmll');
+        }));
 
 });
 

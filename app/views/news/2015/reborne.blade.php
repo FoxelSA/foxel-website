@@ -43,7 +43,7 @@
 ?>
 
 @section('head')
-Actualités | FOXEL soutient l'initiative Re-Borne
+{{ Lang::get('news.head') }} | FOXEL soutient l'initiative Re-Borne
 @stop
 
 @section('data')

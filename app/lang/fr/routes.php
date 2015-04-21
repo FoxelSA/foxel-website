@@ -80,6 +80,28 @@ return array(
             )
         )
     ),
+    'news'              => array(
+        'uri'               => 'actualites',
+        'nav'               => 'Actualités',
+        'off'               => array(
+            '2015'              => array(
+                'iss'               => array(
+                    'uri'               => 'actualites/2015/iss-universite-geneve',
+                    'nav'               => NULL
+                ),
+                'reborne'           => array(
+                    'uri'               => 'actualites/2015/initiative-re-borne',
+                    'nav'               => NULL
+                )
+            ),
+            '2014'              => array(
+                'rmll'              => array(
+                    'uri'               => 'actualites/2014/rmll-lsm-montpellier',
+                    'nav'               => NULL
+                )
+            )
+        )
+    ),
     'investors'         => array(
         'uri'               => 'investisseurs',
         'nav'               => 'Investisseurs'
@@ -90,14 +112,6 @@ return array(
     ),
     'disclaimer'        => array(
         'uri'               => 'decharge',
-        'nav'               => NULL
-    ),
-    'rmll2014'          => array(
-        'uri'               => 'actualites/rmll/2014',
-        'nav'               => NULL
-    ),
-    'reborne'           => array(
-        'uri'               => 'actualites/re-borne',
         'nav'               => NULL
     )
 

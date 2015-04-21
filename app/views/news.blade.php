@@ -1,3 +1,5 @@
+@extends('page')
+
 <?php
 
 /**
@@ -38,35 +40,54 @@
  *      Attribution" section of <http://foxel.ch/license>.
  */
 
+?>
 
-/**
- * render_navigation()
- */
-function render_navigation($depth=-1,$tree=NULL,&$html='',$level=0,$preroute='') {
+@section('head')
+{{ Lang::get('news.head') }}
+@stop
 
-    $html .= $level > 0 ? '<ul class="sub l'.$level.'">' : '<ul>';
+@section('data')
 
-    if (is_null($tree))
-        $tree = Lang::get('routes');
+    <h2>{{ Lang::get('news.title') }}</h2>
 
-    foreach ($tree as $route => $item) {
+    <h3 class="feed">2015</h3>
 
-        if (isset($item['nav']) && $item['nav'] != NULL) {
+    <div class="feed">
+        <div class="date">{{ Lang::get('news.2015.iss.date') }}</div>
+        <div class="text">{{ Lang::get('news.2015.iss.info') }}</div>
+    </div>
 
-            $html .= '<li>';
-            $html .= '<a href="'.route($route).($route=='home'?'/':'').'"'.($route==Route::currentRouteName()?' class="active"':'').'>'.$item['nav'].'</a>';
+    <div class="feed">
+        <div class="date">{{ Lang::get('news.2015.reborne.date') }}</div>
+        <div class="text">{{ Lang::get('news.2015.reborne.info') }}</div>
+    </div>
 
-            if (isset($item['sub']) && is_array($item['sub'])) {
-                if ($depth == -1 || $level < $depth)
-                    render_navigation($depth,$item['sub'],$html,$level+1,$preroute.$route.'.sub.');
-            }
+    <div class="feed">
+        <div class="date">{{ Lang::get('news.2015.isprs.date') }}</div>
+        <div class="text">{{ Lang::get('news.2015.isprs.info') }}</div>
+    </div>
 
-            $html .= '</li>';
-        }
-    }
+    <div class="feed">
+        <div class="date">{{ Lang::get('news.2015.sspt.date') }}</div>
+        <div class="text">{{ Lang::get('news.2015.sspt.info') }}</div>
+    </div>
 
-    $html .= '</ul>';
+    <h3 class="feed">2014</h3>
 
-    return $html;
+    <div class="feed">
+        <div class="date">{{ Lang::get('news.2014.ge200.date') }}</div>
+        <div class="text">{{ Lang::get('news.2014.ge200.info') }}</div>
+    </div>
 
-}
+    <div class="feed">
+        <div class="date">{{ Lang::get('news.2014.rmll.date') }}</div>
+        <div class="text">{{ Lang::get('news.2014.rmll.info') }}</div>
+    </div>
+
+@stop
+
+@section('sidebar')
+
+    @parent
+
+@stop

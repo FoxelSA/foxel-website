@@ -124,12 +124,12 @@
                 <p><a href="{{{ route('company') }}}">{{ Lang::get('commons.readmore') }}</a></p>
             </div>
             <div class="column middle">
-                <h3>{{ Lang::get('commons.news.title') }}</h3>
+                <h3>{{ Lang::get('news.head') }}</h3>
                 <div class="news">
-                    <p>{{ Lang::get('commons.news.content.d',array('route'=>route('reborne'))) }}</p>
-                    <p class="sep">{{ Lang::get('commons.news.content.c') }}</p>
-                    <p class="sep">{{ Lang::get('commons.news.content.b') }}</p>
-                    <p class="sep">{{ Lang::get('commons.news.content.a') }}</p>
+                    <p>{{ Lang::get('news.2015.iss.info') }}</p>
+                    <p class="sep">{{ Lang::get('news.2015.reborne.info') }}</p>
+                    <p class="sep">{{ Lang::get('news.2015.isprs.info') }}</p>
+                    <p class="sep">{{ Lang::get('news.2015.sspt.info') }}</p>
                 </div>
             </div>
             <div class="column right">

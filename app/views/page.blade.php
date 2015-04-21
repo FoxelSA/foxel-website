@@ -82,11 +82,11 @@
                     </div>
                 </div>
                 <div class="block news">
-                    <h5>{{ Lang::get('commons.news.title') }}</h5>
-                    <p>{{ Lang::get('commons.news.content.d',array('route'=>route('reborne'))) }}</p>
-                    <p class="sep">{{ Lang::get('commons.news.content.c') }}</p>
-                    <p class="sep">{{ Lang::get('commons.news.content.b') }}</p>
-                    <p class="sep">{{ Lang::get('commons.news.content.a') }}</p>
+                    <h5>{{ Lang::get('news.head') }}</h5>
+                    <p>{{ Lang::get('news.2015.iss.info') }}</p>
+                    <p class="sep">{{ Lang::get('news.2015.reborne.info') }}</p>
+                    <p class="sep">{{ Lang::get('news.2015.isprs.info') }}</p>
+                    <p class="sep">{{ Lang::get('news.2015.sspt.info') }}</p>
                 </div>
 
 @show

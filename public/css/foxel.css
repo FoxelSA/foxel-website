@@ -439,7 +439,7 @@ header {
                     nav#menu ul li {
                         position:relative;
                         float:left;
-                        margin-left:35px;
+                        margin-left:27px;
                     }
 
                     nav#menu ul ul.sub {
@@ -587,7 +587,6 @@ footer {
 #main {
     margin-top:156px; /* must be equal to #top:height + #nav:height */
 }
-
 
 
 
@@ -943,7 +942,6 @@ footer {
 
 
 
-
 /***********************************************************************
  * page                                                                *
  **********************************************************************/
@@ -1181,6 +1179,31 @@ footer {
 
 
 /***********************************************************************
+ * news                                                                *
+ **********************************************************************/
+
+h3.feed {
+    padding-top:15px;
+}
+
+div.feed {
+    margin-bottom:20px;
+}
+
+    div.feed .date {
+        float:left;
+        font-size:11px;
+        text-transform:uppercase;
+    }
+
+    div.feed .text {
+        margin-left:200px;
+    }
+
+
+
+
+/***********************************************************************
  * specifications                                                      *
  **********************************************************************/
 
@@ -1242,7 +1265,6 @@ table.specifications {
 
 
 
-
 /***********************************************************************
  * vimeo                                                               *
  **********************************************************************/
@@ -1251,7 +1273,6 @@ iframe.vimeo.dynamic {
     width:790px;
     height:440px;
 }
-
 
 
 
@@ -1276,7 +1297,6 @@ iframe.vimeo.dynamic {
 
 
 
-
 /***********************************************************************
  * media query #1                                                      *
  **********************************************************************/
@@ -1288,7 +1308,7 @@ iframe.vimeo.dynamic {
     }
 
     nav#menu ul li {
-        margin-left:24px;
+        margin-left:22px;
     }
 
     #triptych .column {
@@ -1355,6 +1375,13 @@ iframe.vimeo.dynamic {
         }
 
 
+    /** news **/
+
+    div.feed .text {
+        margin-left:150px;
+    }
+
+
     /** vimeo **/
 
     iframe.vimeo.dynamic {
@@ -1370,7 +1397,6 @@ iframe.vimeo.dynamic {
     }
 
 }
-
 
 
 
@@ -1544,7 +1570,6 @@ iframe.vimeo.dynamic {
     }
 
 }
-
 
 
 
@@ -1788,6 +1813,18 @@ iframe.vimeo.dynamic {
         #content .columns.team {
             margin-bottom:0;
         }
+
+
+    /** news **/
+
+    div.feed .date {
+        float:none;
+        margin-bottom:8px;
+    }
+
+    div.feed .text {
+        margin-left:0;
+    }
 
 
     /** vimeo **/

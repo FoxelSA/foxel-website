@@ -43,12 +43,12 @@
 ?>
 
 @section('head')
-Actualités | FOXEL aux RMLL 2014
+{{ Lang::get('news.head') }} | FOXEL participe aux RMLL 2014
 @stop
 
 @section('data')
 
-    <h2>FOXEL aux 15èmes Rencontres Mondiales<br />du Logiciel Libre à Montpellier</h2>
+    <h2>FOXEL participe aux 15èmes Rencontres Mondiales<br />du Logiciel Libre à Montpellier</h2>
 
     <p><em>Genève, le 4 juillet 2014</em></p>
 
