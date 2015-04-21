@@ -46,7 +46,7 @@ return array(
     '2015'                      => array(
         'iss'                       => array(
             'date'                      => "April 21, 2015",
-            'info'                      => "University of Geneva's Institute of Information Service Science (ISS), FOXEL and the CINTCOM foundation <a href=\"".route('news.2015.iss')."\">establish a convention aiming at developing their respective explorations</a>.",
+            'info'                      => "University of Geneva's Institute of Information Service Science (ISS), FOXEL and the CINTCOM foundation <a href=\"".route('news.2015.iss')."\">establish an agreement aiming at developing their respective explorations</a>.",
             'pdf'                       => "repository/pressrelease/FOXEL-2015-04-21-EN_ISS-CINTCOM-FOXEL.pdf",
         ),
         'reborne'                   => array(
