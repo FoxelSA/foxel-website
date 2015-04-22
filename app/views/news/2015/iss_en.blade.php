@@ -52,7 +52,7 @@
 
     <p><em>Press Release | Geneva, April 21st, 2015</em></p>
 
-    <p style="font-weight:700;">University of Geneva's <a href="http://iss.unige.ch" target="_blank">Institute of Information Service Science</a> (ISS), <a href="http://foxel.ch" target="_blank">FOXEL SA</a> and the CINTCOM foundation establish an agreement aiming at developing their respective explorations.</p>
+    <p style="font-weight:700;">Geneva University <a href="http://iss.unige.ch" target="_blank">Institute of Information Service Science</a> (ISS), <a href="http://foxel.ch" target="_blank">FOXEL SA</a> and the CINTCOM foundation establish an agreement aiming at developing their respective explorations.</p>
     <p>This agreement covers the domains of large scale digital scanning of geographic territory/space, setting up of digital commons, management of technological and informational heritage, deployment of projects related to Smart Cities or Smart Regions. This partnership concerns research, teaching, and establishment of TiersLieu in relation with the above topics.</p>
 
     <ul>
