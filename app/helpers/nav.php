@@ -53,8 +53,12 @@ function render_navigation($depth=-1,$tree=NULL,&$html='',$level=0,$preroute='')
 
         if (isset($item['nav']) && $item['nav'] != NULL) {
 
+            $active = $route == Route::currentRouteName();
+            if ($route == 'news' && substr(Route::currentRouteName(),0,5) == 'news.')
+                $active = true;
+
             $html .= '<li>';
-            $html .= '<a href="'.route($route).($route=='home'?'/':'').'"'.($route==Route::currentRouteName()?' class="active"':'').'>'.$item['nav'].'</a>';
+            $html .= '<a href="'.route($route).($route=='home'?'/':'').'"'.($active?' class="active"':'').'>'.$item['nav'].'</a>';
 
             if (isset($item['sub']) && is_array($item['sub'])) {
                 if ($depth == -1 || $level < $depth)
