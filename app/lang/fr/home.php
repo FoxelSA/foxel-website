@@ -40,7 +40,7 @@
 
 return array(
 
-    'head'                      => "Stereophotogrammetry Solutions",
+    'head'                      => "Stéréophotogrammétrie et numérisation 3D-métrique d'environnement",
     'title'                     => "Stéréophotogrammétrie<br />et numérisation 3D-métrique<br />d'environnement",
 
     'domains'                   => array(

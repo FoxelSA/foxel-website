@@ -52,8 +52,8 @@
 
         <div class="slider noa">
             <ul>
-                <li><img src="{{{ asset('img/slides/car.jpg') }}}" alt="" /></li>
-                <li><img src="{{{ asset('img/slides/mountain.jpg') }}}" alt="" /></li>
+                <li><img src="{{{ asset('img/slides/foxel-dav.jpg') }}}" alt="" /></li>
+                <li><img src="{{{ asset('img/slides/foxel-cam.jpg') }}}" alt="" /></li>
             </ul>
         </div>
 

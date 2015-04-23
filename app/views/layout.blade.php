@@ -96,7 +96,7 @@
         <div class="bound">
             <div class="air">
                 <div id="logo" class="noa">
-                    <a href="{{{ route('home').'/' }}}"><img src="{{{ asset('img/foxel.jpg') }}}" width="300" height="50" alt="FOXEL | Stereophotogrammetry Solutions" /></a>
+                    <a href="{{{ route('home').'/' }}}"><img src="{{{ asset('img/foxel.png') }}}" width="244" height="75" alt="FOXEL | Stereophotogrammetry and 3D-metric Environment Digitizing" /></a>
                 </div>
                 <nav id="menu">
                     {{ render_navigation() }}

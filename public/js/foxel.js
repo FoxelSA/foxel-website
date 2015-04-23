@@ -47,6 +47,9 @@ var cfg = {
         nav: {
             move: 50,
             switcher: false
+        },
+        logo: {
+            height: 0
         }
     },
 
@@ -83,6 +86,9 @@ var autoconf = function() {
 
     // structure
     dspsmall();
+
+    // logo
+    cfg.structure.logo.height = $('#logo img').height();
 
     // homepage
     cfg.home.active = !($('#home').length == 0);
@@ -125,6 +131,10 @@ var navigation = function() {
 
     $('#nav').height($('#nav .responsive').height()-move);
     $('#nav .air').css('top',(top-move/2)+'px');
+
+    $('#logo img').width('auto');
+    $('#logo img').height(cfg.structure.logo.height-(move/3));
+    $('#logo').css('top',((($('#logo img').height()-$('#nav .air').height())/2)*-1.0)+'px');
 
     cfg.structure.nav.switcher = false;
     $('#nav .alternate.menu').remove();
