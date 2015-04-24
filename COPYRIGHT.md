@@ -41,7 +41,7 @@ This program includes works distributed under the terms of another license(s) an
     Copyright (c) Taylor Otwell<br />
     Laravel is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-*   __jQuery 1.11.1__<br />
+*   __jQuery 1.11.2__<br />
     <[http://jquery.org](http://jquery.org)><br />
     Copyright (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license<br />
     jQuery is licensed under the [MIT license](http://opensource.org/licenses/MIT).
@@ -56,20 +56,20 @@ This program includes works distributed under the terms of another license(s) an
     Copyright (c) Ian Lunn<br />
     jQuery Parallax is dual licensed under the [MIT license](http://opensource.org/licenses/MIT) and the [GNU GPL license](http://www.gnu.org/licenses/gpl.html).
 
-*   __jQuery Waypoints 2.0.5__<br />
+*   __jQuery Waypoints 3.1.1__<br />
     <[http://imakewebthings.com/jquery-waypoints/](http://imakewebthings.com/jquery-waypoints/)><br />
-    Copyright (c) 2011-2014 Caleb Troughton<br />
+    Copyright (c) 2011-2015 Caleb Troughton<br />
     jQuery Waypoints is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+*   __jQuery Smooth Scroll 1.5.5__<br />
+    <[https://github.com/kswedberg/jquery-smooth-scroll](https://github.com/kswedberg/jquery-smooth-scroll)><br />
+    Copyright (c) 2015 Karl Swedberg<br />
+    jQuery Smooth Scroll is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 *   __BxSlider 4.1.2__<br />
     <[http://bxslider.com](http://bxslider.com)><br />
     Copyright (c) 2014, Steven Wanderski - http://stevenwanderski.com - http://bxcreative.com<br />
     BxSlider is licensed under the [MIT license](http://opensource.org/licenses/MIT).
-
-*   __Smooth Scroll 1.4.13__<br />
-    <[https://github.com/kswedberg/jquery-smooth-scroll](https://github.com/kswedberg/jquery-smooth-scroll)><br />
-    Copyright (c) 2013 Karl Swedberg<br />
-    Smooth Scroll is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 *   __Leaflet 0.7.3__<br />
     <[http://leafletjs.com](http://leafletjs.com)><br />
@@ -77,9 +77,9 @@ This program includes works distributed under the terms of another license(s) an
     Copyright (c) 2010-2011, CloudMade<br />
     Leaflet is licensed under the [BSD 2-Clause license](http://opensource.org/licenses/BSD-2-Clause).
 
-*   __Underscore.js 1.6.0__<br />
+*   __Underscore.js 1.8.3__<br />
     <[http://underscorejs.org](http://underscorejs.org)><br />
-    Copyright (c) 2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br />
+    Copyright (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br />
     Underscore.js is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 *   __Open Sans__<br />

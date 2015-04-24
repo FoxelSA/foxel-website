@@ -47,17 +47,17 @@
     <meta name="description" content="{{ Lang::get('commons.meta') }}" />
     <meta name="viewport" content="initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="{{{ asset('favicon.ico') }}}" />
-    <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/jquery.bxslider/jquery.bxslider.css') }}}" />
-    <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/leaflet/leaflet.css') }}}" />
+    <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/thirdparty/jquery.bxslider/jquery.bxslider.css') }}}" />
+    <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/thirdparty/leaflet/leaflet.css') }}}" />
     <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('css/foxel.css') }}}" />
-    <script type="text/javascript" src="{{{ asset('js/jquery-1.11.1.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/underscore-1.6.0.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/jquery.easing-1.3.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/jquery.parallax-1.1.3.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/jquery.smooth-scroll-1.4.13.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/jquery.waypoints-2.0.5.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/jquery.bxslider/jquery.bxslider-4.1.2.min.js') }}}"></script>
-    <script type="text/javascript" src="{{{ asset('js/leaflet/leaflet-0.7.3.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery/jquery-1.11.2.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/underscore.js/underscore-1.8.3.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.easing/jquery.easing-1.3.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.parallax/jquery.parallax-1.1.3.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.smooth-scroll/jquery.smooth-scroll-1.5.5.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.waypoints/jquery.waypoints-3.1.1.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.bxslider/jquery.bxslider-4.1.2.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/leaflet/leaflet-0.7.3.min.js') }}}"></script>
     <script type="text/javascript" src="{{{ asset('js/foxel.js') }}}"></script>
 </head>
 
