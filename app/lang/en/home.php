@@ -210,7 +210,7 @@ return array(
             )
         ),
                                     array(
-            'name'                      => "Entertainement",
+            'name'                      => "Entertainment",
             'points'                    => array(
                                             "Projection and 3D simulation",
                                             "Gaming resources",
