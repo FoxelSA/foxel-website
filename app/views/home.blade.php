@@ -55,9 +55,9 @@
                 <li>
                     <video id="video_teaser" class="video-js vjs-default-skin vjs-big-play-centered"
                         poster="{{{ asset('img/slides/foxel-teaser.jpg') }}}">
-                        <source src="{{{ asset('vid/teaser/foxel.mp4') }}}" type="video/mp4" />
-                        <source src="{{{ asset('vid/teaser/foxel.webm') }}}" type="video/webm" />
                         <source src="{{{ asset('vid/teaser/foxel.ogv') }}}" type="video/ogg" />
+                        <source src="{{{ asset('vid/teaser/foxel.webm') }}}" type="video/webm" />
+                        <source src="{{{ asset('vid/teaser/foxel.mp4') }}}" type="video/mp4" />
                     </video>
                 </li>
                 <li><img src="{{{ asset('img/slides/foxel-cam.jpg') }}}" alt="" /></li>
