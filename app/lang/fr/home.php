@@ -137,25 +137,13 @@ return array(
             )
         ),
                                     array(
-            'name'                      => "Police",
-            'points'                    => array(
-                                            "Repérage et planification d'intervention",
-                                            "Aide à la décision",
-                                            "Relevé d'indices",
-                                            "Analyse de scènes de crime",
-                                            "Plan de situation",
-                                            "Mesure des distances et des profondeurs",
-                                            "Mesure des surfaces et des volumes",
-                                            "Pose de jalons avec description",
-                                            "Mise en évidence (lignes, zones)",
-                                            "Vues panoramiques sphériques de l'environnement",
-                                            "Support multimédia pour la formation professionnelle"
-            )
-        ),
-                                    array(
             'name'                      => "Sciences forensiques",
             'points'                    => array(
                                             "Relevé des traces et de leur position dans l'espace",
+                                            "Relevé d'indices",
+                                            "Analyse de scènes de crime",
+                                            "Aide à la décision",
+                                            "Repérage et planification d'intervention",
                                             "Plan de situation",
                                             "Mesure des distances et des profondeurs",
                                             "Mesure des surfaces et des volumes",
@@ -195,7 +183,7 @@ return array(
             )
         ),
                                     array(
-            'name'                      => "Industries",
+            'name'                      => "Industrie",
             'points'                    => array(
                                             "Repérage et planification d'intervention",
                                             "Vérification de structures et analyse des déformations",
@@ -215,6 +203,23 @@ return array(
                                             "Réalité augmentée et points d'intérêt",
                                             "Référencement et cartographie interactive de lieux publics",
                                             "Valorisation du patrimoine",
+                                            "Visite virtuelle interactive",
+                                            "Vues panoramiques sphériques de l'environnement",
+                                            "Promotion événementielle",
+                                            "Immortalisation d'événements majeurs"
+            )
+        ),
+                                    array(
+            'name'                      => "Divertissement",
+            'points'                    => array(
+                                            "Projection et simulation 3D",
+                                            "Ressources destinées aux jeux vidéo",
+                                            "Applications multimédias",
+                                            "Réalité augmentée et points d'intérêt",
+                                            "Plan de situation",
+                                            "Mesure des distances et des profondeurs",
+                                            "Mesure des surfaces et des volumes",
+                                            "Mise en évidence (lignes, zones)",
                                             "Visite virtuelle interactive",
                                             "Vues panoramiques sphériques de l'environnement",
                                             "Promotion événementielle",

@@ -137,25 +137,13 @@ return array(
             )
         ),
                                     array(
-            'name'                      => "Police",
-            'points'                    => array(
-                                            "Spotting and response planning",
-                                            "Decision-support system",
-                                            "Evidence capturing",
-                                            "Crime scene analysis",
-                                            "Site plan",
-                                            "Measurement of depths and distances",
-                                            "Measurement of surfaces and volumes",
-                                            "Placing of markers with description",
-                                            "Highlighting (lines, zones)",
-                                            "Spherical panoramic views of the environment",
-                                            "Multimedia applications and resources for professional training"
-            )
-        ),
-                                    array(
             'name'                      => "Forensic Sciences",
             'points'                    => array(
                                             "Trace capturing and their positioning",
+                                            "Evidence capturing",
+                                            "Crime scene analysis",
+                                            "Decision-support system",
+                                            "Spotting and response planning",
                                             "Site plan",
                                             "Measurement of depths and distances",
                                             "Measurement of surfaces and volumes",
@@ -215,6 +203,23 @@ return array(
                                             "Augmented reality and points of interest",
                                             "Interactive cataloguing and mapping of public places",
                                             "Heritage enhancement",
+                                            "Interactive virtual tour",
+                                            "Spherical panoramic views of the environment",
+                                            "Event promotion",
+                                            "Major event capturing"
+            )
+        ),
+                                    array(
+            'name'                      => "Entertainement",
+            'points'                    => array(
+                                            "Projection and 3D simulation",
+                                            "Gaming resources",
+                                            "Multimedia applications",
+                                            "Augmented reality and points of interest",
+                                            "Site plan",
+                                            "Measurement of depths and distances",
+                                            "Measurement of surfaces and volumes",
+                                            "Highlighting (lines, zones)",
                                             "Interactive virtual tour",
                                             "Spherical panoramic views of the environment",
                                             "Event promotion",
