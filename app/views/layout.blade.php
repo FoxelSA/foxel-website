@@ -49,6 +49,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{{ asset('favicon.ico') }}}" />
     <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/thirdparty/jquery.bxslider/jquery.bxslider.css') }}}" />
     <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/thirdparty/leaflet/leaflet.css') }}}" />
+    <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('js/thirdparty/video.js/video.min.css') }}}" />
     <link rel="stylesheet" type="text/css" media="all" href="{{{ asset('css/foxel.css') }}}" />
     <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery/jquery-1.11.2.min.js') }}}"></script>
     <script type="text/javascript" src="{{{ asset('js/thirdparty/underscore.js/underscore-1.8.3.min.js') }}}"></script>
@@ -58,6 +59,7 @@
     <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.waypoints/jquery.waypoints-3.1.1.min.js') }}}"></script>
     <script type="text/javascript" src="{{{ asset('js/thirdparty/jquery.bxslider/jquery.bxslider-4.1.2.min.js') }}}"></script>
     <script type="text/javascript" src="{{{ asset('js/thirdparty/leaflet/leaflet-0.7.3.min.js') }}}"></script>
+    <script type="text/javascript" src="{{{ asset('js/thirdparty/video.js/video-4.12.5.min.js') }}}"></script>
     <script type="text/javascript" src="{{{ asset('js/foxel.js') }}}"></script>
 </head>
 

@@ -57,7 +57,13 @@ var cfg = {
         active:
             false,
         slider: {
+            bx: null,
+            width: 1920,
+            height: 550,
             delay: 6000
+        },
+        video: {
+            teaser: null
         },
         scroll: {
             stop: false,
@@ -330,6 +336,9 @@ var adapt = function() {
     dspsmall();
     navigation();
 
+    // slider
+    slider();
+
     // domains
     tile();
     if (cfg.home.active)
@@ -339,6 +348,31 @@ var adapt = function() {
     _footer();
 
 }; // adapt() end
+
+/**
+ * slider()
+ */
+var slider = function() {
+
+    var _w = $('#home .slider').width();
+    var _h = Math.floor(_w / cfg.home.slider.width * cfg.home.slider.height);
+
+    // elements
+    $.each($('#home .slider img, #home .slider video'),function(index,element) {
+        $(element).width(_w);
+        $(element).height(_h);
+    });
+
+    // teaser
+    if (cfg.home.video.teaser != null) {
+        cfg.home.video.teaser.width(_w);
+        cfg.home.video.teaser.height(_h);
+    }
+
+    // component
+    $('#home .slider .bx-viewport').height(_h);
+
+}; // slider() end
 
 /**
  * homepage()
@@ -653,8 +687,52 @@ var homepage = function() {
 
     }; // _parallax() end
 
-    // slider
-    $('#home .slider ul').bxSlider({
+    /**
+     * _video()
+     */
+    var _video = function() {
+
+        // component
+        cfg.home.video.teaser = videojs('video_teaser',{
+            controls: true,
+            preload: 'auto',
+            loop: false,
+            autoplay: false,
+            techOrder: ['html5'],
+            width: $('#video_teaser').width(),
+            height: $('#video_teaser').height(),
+            children: {
+                bigPlayButton: true,
+                controlBar: {
+                    playToggle: false,
+                    fullscreenToggle: false,
+                    progressControl: false,
+                    currentTimeDisplay: false,
+                    timeDivider: false,
+                    durationDisplay: false,
+                    children: {
+                        volumeControl: true,
+                        muteToggle: true
+                    }
+                }
+            }
+        });
+
+        // !! event video:play
+        cfg.home.video.teaser.on('play',function() {
+            cfg.home.slider.bx.stopAuto();
+        });
+
+    }; // _video() end
+
+    // slider adapt
+    slider();
+
+    // video
+    _video();
+
+    // slider component
+    cfg.home.slider.bx = $('#home .slider > ul').bxSlider({
         mode: 'fade',
         minSlides: 1,
         maxSlides: 1,

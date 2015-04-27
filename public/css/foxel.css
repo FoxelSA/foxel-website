@@ -610,6 +610,29 @@ footer {
         /* void */
     }
 
+        #home .slider .video-js {
+            background-color:#fff;
+        }
+
+        #home .slider .vjs-volume-level {
+            background-color:#ecb100;
+        }
+
+        #home .slider .vjs-volume-control {
+            margin-right:20px;
+        }
+
+        #home .slider .vjs-big-play-button {
+            border:none;
+            background-color:rgba(50,50,50,0.4);
+            box-shadow:0 0 2em rgba(255,255,255,1.0)
+        }
+
+        #home .slider .vjs-big-play-button:hover {
+            background-color:rgba(50,50,50,0.5);
+            box-shadow:0 0 2em rgba(236,177,0,0.8)
+        }
+
     #home .headline {
         background-color:#ecb100;
         cursor:pointer;

@@ -82,6 +82,11 @@ This program includes works distributed under the terms of another license(s) an
     Copyright (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors<br />
     Underscore.js is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
+*   __Video.js 4.12.5__<br />
+    <[http://videojs.com/](http://videojs.com)><br />
+    Copyright (c) 2014 Brightcove, Inc<br />
+    Video.js is licensed under the [Apache License 2.0](http://opensource.org/licenses/Apache-2.0).
+
 *   __Open Sans__<br />
     <[http://www.google.com/fonts/specimen/Open+Sans](http://www.google.com/fonts/specimen/Open+Sans)><br />
     Copyright (c) Steve Matteson, Ascender Corporation<br />
