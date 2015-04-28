@@ -704,9 +704,9 @@ var homepage = function() {
             children: {
                 bigPlayButton: true,
                 controlBar: {
-                    playToggle: false,
+                    playToggle: true,
                     fullscreenToggle: false,
-                    progressControl: false,
+                    progressControl: true,
                     currentTimeDisplay: false,
                     timeDivider: false,
                     durationDisplay: false,
@@ -721,6 +721,21 @@ var homepage = function() {
         // !! event video:play
         cfg.home.video.teaser.on('play',function() {
             cfg.home.slider.bx.stopAuto();
+        });
+
+        // !! event video:ended
+        cfg.home.video.teaser.on('ended',function() {
+
+            // slide
+            cfg.home.slider.bx.goToNextSlide();
+            cfg.home.slider.bx.startAuto();
+
+            // player initial state
+            setTimeout(function() {
+                cfg.home.video.teaser.currentTime(0);
+                cfg.home.video.teaser.trigger('loadstart');
+            },250);
+
         });
 
     }; // _video() end
@@ -738,7 +753,12 @@ var homepage = function() {
         maxSlides: 1,
         slideMargin: 0,
         auto: true,
-        pause: cfg.home.slider.delay
+        pause: cfg.home.slider.delay,
+        onSlideAfter: function() {
+            cfg.home.video.teaser.pause();
+            cfg.home.video.teaser.currentTime(0);
+            cfg.home.video.teaser.trigger('loadstart');
+        }
     });
 
     // prepare
