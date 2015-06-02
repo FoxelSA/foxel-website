@@ -50,8 +50,8 @@ return array(
 
     'connect'                   => array(
         'name'                      => "FOXEL SA",
-        'street'                    => "Chemin de Champ-Claude 10",
-        'city'                      => "CH-1214 Vernier, Switzerland",
+        'street'                    => "Rue de Vermont 62",
+        'city'                      => "CH-1202 Geneva, Switzerland",
         'phone'                     => "+41 22 341 33 00",
         'email'                     => "info@foxel.ch"
     ),
