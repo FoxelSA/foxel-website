@@ -805,7 +805,7 @@ var contact = function() {
         return;
 
     // leaflet
-    var map = L.map('leaflet',{scrollWheelZoom:false}).setView([46.2189251, 6.0875998999999865],12);
+    var map = L.map('leaflet',{scrollWheelZoom:false}).setView([46.2202530,6.1401650],12);
 
     // openstreetmap
     L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -814,7 +814,7 @@ var contact = function() {
     }).addTo(map);
 
     // marker
-    L.marker([46.2189251, 6.0875998999999865])
+    L.marker([46.2202530,6.1401650])
         .addTo(map)
         .bindPopup($('#leaflet-marker').html())
         .openPopup();
