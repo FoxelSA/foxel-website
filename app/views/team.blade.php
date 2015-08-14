@@ -48,29 +48,27 @@
 
 @section('data')
 
-    <h2 style="padding-bottom:10px;">Head of Management</h2>
+    <h2 style="padding-bottom:10px;">Leadership Committee</h2>
 
     <div class="columns team">
-        <div class="column noa">
-            <div class="pic">
-                <img src="{{{ asset('img/team/olivier-wasem.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name">Olivier Wasem</div>
-                <div class="title">CEO</div>
-                <div class="dept">President</div>
-                <div class="more">Chief Executive Officer</div>
-            </div>
-        </div>
         <div class="column noa">
             <div class="pic">
                 <img src="{{{ asset('img/team/lionel-lourdin.jpg') }}}" alt="" />
             </div>
             <div class="people">
                 <div class="name">Lionel Lourdin</div>
-                <div class="title">COO</div>
-                <div class="dept">Vice President</div>
-                <div class="more">Chief Operating Officer</div>
+                <div class="title">Secretary</div>
+                <div class="dept">President</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/alexandre-kraft.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Alexandre Kraft</div>
+                <div class="title">Vice-Secretary</div>
+                <div class="dept">Vice president</div>
             </div>
         </div>
     </div>
@@ -78,13 +76,32 @@
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/alexandre-kraft.jpg') }}}" alt="" />
+                <img src="{{{ asset('img/team/unknown.png') }}}" alt="" />
             </div>
             <div class="people">
-                <div class="name">Alexandre Kraft</div>
-                <div class="title">CIO</div>
-                <div class="dept">Board Member</div>
-                <div class="more">Chief Information Officer</div>
+                <div class="name">Nathalie Veysset</div>
+                <div class="title">Leader of Operations</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/unknown.png') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Jean-Baptiste Guillet</div>
+                <div class="title">Leader of Business Development</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/michel-leonard.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Pr. Michel Léonard</div>
+                <div class="title">Leader of Scientific Development</div>
             </div>
         </div>
         <div class="column noa">
@@ -93,9 +110,20 @@
             </div>
             <div class="people">
                 <div class="name">Nils Hamel</div>
-                <div class="title">CTO</div>
+                <div class="title">Leader of Technology</div>
                 <div class="dept">EPF Physicist</div>
-                <div class="more">Chief Technology Officer</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns team">
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/raphael-lourdin.jpg') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Raphaël Lourdin</div>
+                <div class="title">Leader of Creation</div>
             </div>
         </div>
     </div>
@@ -166,13 +194,13 @@
         </div>
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/raphael-lourdin.jpg') }}}" alt="" />
+                <img src="{{{ asset('img/team/joelle-egger.jpg') }}}" alt="" />
             </div>
             <div class="people">
-                <div class="name">Raphaël Lourdin</div>
-                <div class="title">Creative Director</div>
-                <div class="dept">Communication</div>
-                <div class="more">Graphic Design + Visual Layouts</div>
+                <div class="name">Joëlle Egger</div>
+                <div class="title">Accountant</div>
+                <div class="dept">Administration</div>
+                <div class="more">Accounting + Administration</div>
             </div>
         </div>
     </div>
@@ -189,17 +217,6 @@
                 <div class="more">Community Management</div>
             </div>
         </div>
-        <div class="column noa">
-            <div class="pic">
-                <img src="{{{ asset('img/team/joelle-egger.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name">Joëlle Egger</div>
-                <div class="title">Accountant</div>
-                <div class="dept">Administration</div>
-                <div class="more">Accounting + Administration</div>
-            </div>
-        </div>
     </div>
 
     <h2 style="padding-top:20px;padding-bottom:10px;">Advisory Committee</h2>
@@ -207,19 +224,10 @@
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/michel-leonard.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name"><br />Pr. Michel Léonard</div>
-                <div class="title">Academic &amp; Service Design</div>
-            </div>
-        </div>
-        <div class="column noa">
-            <div class="pic">
                 <img src="{{{ asset('img/team/raymond-jacot.jpg') }}}" alt="" />
             </div>
             <div class="people">
-                <div class="name"><br />Raymond Jacot</div>
+                <div class="name">Raymond Jacot</div>
                 <div class="title">Networking</div>
             </div>
         </div>
