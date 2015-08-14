@@ -229,6 +229,7 @@
             <div class="people">
                 <div class="name">Raymond Jacot</div>
                 <div class="title">Networking</div>
+                <div class="dept">Board Member</div>
             </div>
         </div>
     </div>
