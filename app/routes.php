@@ -125,6 +125,10 @@ Route::group(array('prefix'=>$locale),function()
         return View::make('news');
     }));
 
+        Route::get(Lang::get('routes.news.off.2015.communication.uri'), array('as'=>'news.2015.communication',function() {
+            return View::make('news.2015.communication');
+        }));
+
         Route::get(Lang::get('routes.news.off.2015.iss.uri'), array('as'=>'news.2015.iss',function() {
             return View::make('news.2015.iss_'.App::getLocale());
         }));
@@ -136,7 +140,6 @@ Route::group(array('prefix'=>$locale),function()
         Route::get(Lang::get('routes.news.off.2014.rmll.uri'), array('as'=>'news.2014.rmll',function() {
             return View::make('news.2014.rmll');
         }));
-
 });
 
 // sendmail

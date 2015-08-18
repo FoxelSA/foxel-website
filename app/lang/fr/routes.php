@@ -85,6 +85,10 @@ return array(
         'nav'               => 'Actualités',
         'off'               => array(
             '2015'              => array(
+                'communication'     => array(
+                    'uri'               => 'actualites/2015/communication',
+                    'nav'               => NULL
+                ),
                 'iss'               => array(
                     'uri'               => 'actualites/2015/iss-universite-geneve',
                     'nav'               => NULL

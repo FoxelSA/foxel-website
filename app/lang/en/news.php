@@ -44,6 +44,10 @@ return array(
     'title'                     => "Latest News",
 
     '2015'                      => array(
+        'communication'             => array(
+            'date'                      => "August 18, 2015",
+            'info'                      => "Mise en place du <a href=\"".route('news.2015.communication')."\">collège des responsables des contributions</a> de FOXEL SA.",
+        ),
         'iss'                       => array(
             'date'                      => "April 21, 2015",
             'info'                      => "Geneva University Institute of Information Service Science (ISS), FOXEL and the CINTCOM foundation <a href=\"".route('news.2015.iss')."\">establish an agreement aiming at developing their respective explorations</a>.",
