@@ -85,7 +85,7 @@
         </div>
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/unknown.png') }}}" alt="" />
+                <img src="{{{ asset('img/team/jean-baptiste-guillet.jpg') }}}" alt="" />
             </div>
             <div class="people">
                 <div class="name">Jean-Baptiste Guillet</div>
