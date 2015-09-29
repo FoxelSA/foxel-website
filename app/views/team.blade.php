@@ -144,20 +144,6 @@
         </div>
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/stephane-flotron.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name">Stéphane Flotron</div>
-                <div class="title">PhD in Applied Mathematics</div>
-                <div class="dept">Research and Development</div>
-                <div class="more">Photogrammetry + Mathematics</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="columns team">
-        <div class="column noa">
-            <div class="pic">
                 <img src="{{{ asset('img/team/kevin-velickovic.jpg') }}}" alt="" />
             </div>
             <div class="people">
@@ -167,31 +153,34 @@
                 <div class="more">Data Processing Interfaces</div>
             </div>
         </div>
-        <div class="column noa">
-            <div class="pic">
-                <img src="{{{ asset('img/team/luc-deschenaux.jpg') }}}" alt="" />
-            </div>
-            <div class="people">
-                <div class="name">Luc Deschenaux</div>
-                <div class="title">Developer</div>
-                <div class="dept">Development</div>
-                <div class="more">WebGL + Front-end Interfaces</div>
-            </div>
-        </div>
     </div>
 
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/kevin-frattini.jpg') }}}" alt="" />
+                <img src="{{{ asset('img/team/unknown.png') }}}" alt="" />
             </div>
             <div class="people">
-                <div class="name">Kevin Frattini</div>
+                <div class="name">Vincent Berset</div>
+                <div class="title">Developer</div>
+                <div class="dept">Development</div>
+                <div class="more">WebGL + Front-end Interfaces</div>
+            </div>
+        </div>
+        <div class="column noa">
+            <div class="pic">
+                <img src="{{{ asset('img/team/unknown.png') }}}" alt="" />
+            </div>
+            <div class="people">
+                <div class="name">Sylvain Estraviz</div>
                 <div class="title">Digitizing Agent</div>
                 <div class="dept">Digitization</div>
                 <div class="more">Data Planning + Acquisition</div>
             </div>
         </div>
+    </div>
+
+    <div class="columns team">
         <div class="column noa">
             <div class="pic">
                 <img src="{{{ asset('img/team/joelle-egger.jpg') }}}" alt="" />
@@ -203,9 +192,6 @@
                 <div class="more">Accounting + Administration</div>
             </div>
         </div>
-    </div>
-
-    <div class="columns team">
         <div class="column noa">
             <div class="pic">
                 <img src="{{{ asset('img/team/malory-jessaume.jpg') }}}" alt="" />
