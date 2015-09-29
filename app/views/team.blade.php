@@ -76,7 +76,7 @@
     <div class="columns team">
         <div class="column noa">
             <div class="pic">
-                <img src="{{{ asset('img/team/unknown.png') }}}" alt="" />
+                <img src="{{{ asset('img/team/nathalie-veysset.jpg') }}}" alt="" />
             </div>
             <div class="people">
                 <div class="name">Nathalie Veysset</div>
